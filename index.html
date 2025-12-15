@@ -238,36 +238,69 @@
         }
 
 /* --- Infograghic --- */
-        #mid {
-            margin-top: 45px;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
-            gap: 20px;
-            text-align: center;
-            border-radius: 80px;
-
-        }
-
-        #info {
-            padding: 5px;
-            border-bottom: 3px solid var(--primary-color);
-            border-right: 3px solid var(--secondary-color);
-            height: 70px;
-            width: 70px;
-            border-radius: 35px;
-
-        }
-        
-        
-        #low {
-            padding: 5px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-            border-bottom: 3px solid var(--primary-color);
-            height: 150px;
-        }
 
 
+/* Existing Global Styles (For context) */
+:root {
+    --primary-color: #00bcd4;
+    --secondary-color: #ff9800;
+    /* ... other vars ... */
+}
+
+/* --- Infographic Wrapper (NEW - handles scrolling) --- */
+/* This container ensures that even on mobile, the content inside is scrollable. */
+#mid-wrapper {
+    overflow-x: auto; /* Enables horizontal scrolling when content is too wide */
+    padding-bottom: 10px; /* Optional: adds space for scrollbar visual */
+}
+
+/* --- Infographic Grid Container --- */
+#mid {
+    margin-top: 45px;
+    display: grid;
+    /* On wider screens (default): Use auto-fit to make the columns flexible and responsive */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 20px;
+    text-align: center;
+    border-radius: 80px;
+    /* IMPORTANT: Ensure it takes full width when content is small */
+    width: 100%; 
+}
+
+/* --- Media Query for Small Screens (Max-width 768px, typical for phones/small tablets) --- */
+@media (max-width: 768px) {
+    #mid {
+        /* * On small screens, force the grid to create columns for ALL items 
+         * side-by-side, making the container much wider than the viewport.
+         * The 4 items need 150px each, so 600px total width. 
+         */
+        grid-template-columns: repeat(4, 150px);
+        /* * Force the grid container to be the minimum size required for all 
+         * columns, enabling the scroll on the wrapper.
+         */
+        width: 620px; /* 4 columns * 150px wide + 3 gaps * 20px = 660px. Adjust as needed. */
+        justify-content: start; /* Align content to the start */
+    }
+}
+
+/* --- Item Styling (Kept as is for context) --- */
+#info {
+    padding: 5px;
+    border-bottom: 3px solid var(--primary-color);
+    border-right: 3px solid var(--secondary-color);
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+}
+
+
+#low {
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid var(--primary-color);
+    height: 150px;
+}
     /* --- Skills Section --- */
         .skills-grid {
             display: grid;
@@ -543,7 +576,7 @@
 
         .contact-grid {
             display: flex;
-            gap: 50px;
+            gap: 10px;
             padding-bottom: 60px;
         }
         
@@ -556,7 +589,7 @@
             margin-top: 20px;
             display: flex;
             justify-content: center;
-            gap: 40px;
+            gap: 20px;
             flex-wrap: wrap;
         }
 
@@ -689,7 +722,7 @@
 
         <div id="loginform">
             <div id="formcontainer">
-                <img src="Fred.jpg" alt="Mr. Ubi Fredrick"/>
+                <img src="Fred.png" alt="Mr. Ubi Fredrick"/>
             </div>  
             <div class="" style=" position:relative; float:left; margin:5px; padding:8px;padding-left:30px; padding-top:10px; padding-bottom:10px;">
                      
@@ -718,32 +751,34 @@
 
 <!--The Infographics  -->       
         
-            <div id="mid">
+            <div id="mid-wrapper">
+                <div id="mid">
 
-                <div id="low">
-                    <img id="info" src="fragile-80x80.png" 
-                        alt="Reliability"/>
-                        <p>Reliability</p>
+                    <div id="low">
+                        <img id="info" src="fragile-80x80.png" 
+                            alt="Reliability"/>
+                            <p>Reliability</p>
+                    </div>
+                            
+                    <div id="low">
+                        <img id="info" src="scan-80x80.png" 
+                            alt="Diligence"/>
+                             <p>Diligency</p>
+                    </div>
+                            
+                    <div id="low">
+                        <img id="info" src="special-80x80.png" 
+                            alt="Precision"/>
+                             <p>Precision</p>
+                    </div>
+                            
+                    <div id="low">
+                        <img id="info" src="transporter-80x80.png" 
+                            alt="Good Timing"/>
+                             <p>Punctuality</p>
+                    </div>
+                            
                 </div>
-                        
-                <div id="low">
-                    <img id="info" src="scan-80x80.png" 
-                        alt="Diligence"/>
-                         <p>Diligency</p>
-                </div>
-                        
-                <div id="low">
-                    <img id="info" src="special-80x80.png" 
-                        alt="Precision"/>
-                         <p>Precision</p>
-                </div>
-                        
-                <div id="low">
-                    <img id="info" src="transporter-80x80.png" 
-                        alt="Good Timing"/>
-                         <p>Punctuality</p>
-                </div>
-                        
             </div>
 
 <!--Forra Corp. Slogan  -->       
@@ -977,11 +1012,9 @@
 
                     <p class="datemark" style="border-left: 3px solid var(--primary-color); padding: 5px;"><strong>Country:</strong><br>Nigeria</p>
                     
-                    <p class="datemark" style="border-left: 3px solid var(--primary-color); padding: 5px;"><strong>Phone:</strong><a href="tel:+2347077976373" style="color:var(--text-light); text-decoration: none;"><br>+234 707 797 6373</a></p>
+                    <p class="datemark" style="border-left: 3px solid var(--primary-color); padding: 5px;"><strong>WhatsApp:</strong><a href="https://wa.ma/+2348066123142" style="color:var(--text-light); text-decoration: none;"><br>+234 806 612 3142</a></p>
 
-                    <p class="datemark" style="border-left: 3px solid var(--primary-color); padding: 5px;"><strong>Email (Official):</strong> <a href="mailto:fofem2@gmail.com" style="color:var(--text-light); text-decoration: none;"><br>fofem2@gmail.com</a></p>
-
-                    <p class="datemark" style="border-left: 3px solid var(--primary-color); padding: 5px;"><strong>Email (Alternative):</strong><br> eveeubi@gmail.com</p>
+                    <p class="datemark" style="border-left: 3px solid var(--primary-color); padding: 5px;"><strong>Email:</strong> <a href="mailto:fofem2@gmail.com" style="color:var(--text-light); text-decoration: none;"><br>fofem2@gmail.com</a></p>
 
                     <p class="datemark" style="border-left: 3px solid var(--primary-color); padding: 5px;"><strong>Name of Personal Compaany:</strong><br>ForraCorp.</p>
                 </div>
@@ -1005,11 +1038,11 @@
 <!-----------------~~~~~~ FOOTER ~~~~~~----------------->    
     <footer>
         <p>&copy; <span id="currentYear"></span> Fredrick Ubi Portfolio</p>
-            <a href="#hero"><img  src="logo.png" 
+            <a href="forra.html"><img  src="logo.png" 
                 style="float:left; position: relative; z-index: -0.3; margin-left:40px; margin-top:-40px; width:80px; height:80px; border-radius:25px;" alt="Forra Corporation Logo"/></a>
              <hr/>
 
-        <p>Built with HTML5, CSS3, & JavaScript | Email: fofem2@gmail.com | Phone: +234 707 797 6373</p>
+        <p>Built with HTML5, CSS3, & JavaScript | Email: fofem2@gmail.com | Phone: +234 702 597 4815</p>
     </footer>
 <!-----------------~~~~~~  ~~~~~~----------------->  
     <script>
