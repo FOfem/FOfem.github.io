@@ -920,9 +920,9 @@
             padding: 30px;
             backdrop-filter: blur(120px);
             margin-bottom: 2rem auto;
-            max-width: 1100px;
+            width: auto; /* Responsiveness, not a fix like 90vw restriction */
+            grid-column: 1 / -1; /* To make it span across all available grid columns */
             border-radius: 15px;
-            width: 78vw; /* 78% of screen width */
             box-shadow: 0 10px 20px rgba(0,0,0,0.7);
         }
 
