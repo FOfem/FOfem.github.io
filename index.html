@@ -20,6 +20,8 @@
             --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             --border-radius: 8px;
             --padding-base: 20px;
+            --glass: rgba(255, 255, 255, 0.05);
+            --glass-border: rgba(255, 255, 255, 0.1);
         }
 
         /* General Reset and Container */
@@ -260,6 +262,13 @@
             font-size: 1.5em;
         }
         
+        h4 {
+            font-size: 1.0rem; 
+            color: var(--secondary-color);
+            margin: 10px;
+        }
+
+
         /* --- Hero Section --- */
         #hero {
             box-shadow: 5px 5px 4px 5px #888888; 
@@ -298,6 +307,18 @@
             text-align: justify;
             max-width: 900px;
             margin: 0 auto;
+        }
+
+       .glass-home {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            padding: 30px;
+            backdrop-filter: blur(120px);
+            margin-bottom: 2rem auto;
+            max-width: 900px;
+            border-radius: 15px;
+            width: 90vw; /* 90% of screen width */
+            box-shadow: 0 10px 20px rgba(0,0,0,0.7);
         }
 
         /* --- Infograghic --- */
@@ -405,7 +426,50 @@
             width: 1em;
             margin-left: -1em;
         }
-        
+
+        .skill-cat {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            padding: 30px;
+            backdrop-filter: blur(120px);
+            margin-bottom: 2rem auto;
+            max-width: 1160px;
+            border-radius: 15px;
+            width: 90vw; /* 90% of screen width */
+
+            background-color: var(--background-dark);
+            padding: var(--padding-base);
+            border-radius: var(--border-radius);
+            border-top: 4px solid var(--primary-color);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .skill-cat h3 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .skill-cat ul {
+            list-style: none;
+        }
+
+        .skill-cat li {
+            padding: 5px 0;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .skill-cat li::before {
+            content: '•';
+            color: var(--secondary-color);
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
         /* --- Projects Section --- */
         .projects-list {
             display: grid;
@@ -734,6 +798,18 @@
             background-color: var(--secondary-color);
         }
 
+        .glass-do {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            padding: 30px;
+            backdrop-filter: blur(120px);
+            margin-bottom: 2rem auto;
+            max-width: 1100px;
+            border-radius: 15px;
+            width: 78vw; /* 78% of screen width */
+            box-shadow: 0 10px 20px rgba(0,0,0,0.7);
+        }
+
         /* --- Footer --- */
         footer {
             text-align: center;
@@ -771,12 +847,12 @@
             <div class="lang">
                <img class="langdrop" id="langicon" src="lang.png" alt="Languages">
                 <div id="ldrop" class="llist">
-                    <a href="index.html"><b>English</b><br></a>
                     <a href="forra.cn.html"><b>中文 / 汉语</b><br><i>Chinese (Mandarin)</i></a>
-                    <a href="forra.hi.html"><p><b>हिन्दी</b><br><i>Hindi</i></a>
-                    <a href="forra.es.html"><b>Español</b><br><i>Spanish</i></a>
+                    <a href="index.html"><b>English</b><br><i>English</i></a>
                     <a href="forra.fr.html"><b>Français</b><br><i>French</i></a>
+                    <a href="forra.hi.html"><b>हिन्दी</b><br><i>Hindi</i></a>
                     <a href="forra.ru.html"><b>Pусский</b><br><i>Russian</i></a>
+                    <a href="forra.es.html"><b>Español</b><br><i>Spanish</i></a>
                 </div>
             </div>
             
@@ -804,13 +880,15 @@
             </div>  
             <div class="" style="position:relative; margin:5px; padding:8px;padding-left:30px; padding-top:10px; padding-bottom:10px;">
                      
-                <h2 style="text-align: center; color: var(--other-color);">Machine Learning Engineer | Information Technologist | Electrical/Electronics Engineer</h2>
+                <h2 style="text-align: center; color: var(--other-color);">
+                Web Developer | Machine Learning Engineer | Information Technologist | Electrical & Electronics Engineer
+                </h2>
 
-                <hr style=" border:double #944dff;max-width: 1125px;">
+                <hr style=" margin-top: -10px; border:double #944dff;max-width: 1125px;">
             </div>
         </div>
         
-        <p style="margin-top: 5px; font-size: 1.8em; color: var(--other-color);">Welcome, to get to know me more.
+        <p style="margin-top: 5px; font-size: 1.8em; color: var(--other-color);">Welcome! Explore my journey and expertise below.
         </p>
     </section>
 
@@ -820,12 +898,26 @@
         <div class="bio">
 
             <p > 
-                I am Certified in Python Development with Machine Learning, specializing in developing Predictive Maintenance (PdM) Models and automated solutions. I am Dedicated to leveraging deep technical knowledge and digital expertise to drive operational efficiency and innovation within the data driven digital world and energy sector. I'm a resilient, self-motivated tech enthusiast with proactive and analytical skills, able to prioritize, multitask and deliver tasks with a high level of reliability, precision with a touch of ultra-modern aesthetics.
+                I am a highly proficient Electrical and Electronics Engineer (HND) with over 14 years of diverse experience spanning Information Technology (IT), Infrastructure Management, Industrial Automation (IoT), Device Networking, and Web Development.
             </p>
          
             <p style="margin-top: 15px;">
-                I am highly proficient  in Electrical and Electronics Engineering, with  over 14+ years of diverse experience spanning through Information Technology (IT), Infrastructure Management, Industrial Automation (with IoTs), and Networking of devices, I am dedicated to offer first class services / solutions that will satisfy my clients and enhance their set goals.
+                I hold certifications in Data Analytics, Advanced Python Development, and Machine Learning Engineering. My unique ability to develop Predictive Maintenance (PdM) and automated solutions—leveraging deep technical knowledge and digital expertise—has a proven track record. By harnessing IoT and data analytics to drive operational efficiency in the pharmaceutical, banking, and retail sectors, I provide solutions that stand out. I am also a skilled Full-Stack Web Developer.
             </p>
+
+            <div style="margin-top: 25px;" class="glass-home">
+    
+                <h3 style="font-size: 1.5rem; color: var(--primary-color);">Why Hire Me?</h3>
+
+                <p style="font-size: 1.2rem;  text-align: justify; color: #94a3b8;">I specialize in bridging the gap between Physical Hardware and Digital Intelligence. I provide end-to-end technical solutions by:</p>
+                    <ul style="margin: 10px 10px 10px 40px; font-size: 1.2rem;  text-align: justify; color: #94a3b8;">
+                        <li>Building the <b>Hardware Systems</b> (Electrical/Electronics Engineering).</li>
+                        <li>Networking them for <b> Communication</b>  (IT Infrastructure).</li>
+                        <li>Providing <b> Intelligence</b>  to make them smart (Machine Learning & Data Science).</li>
+                        <li>Creating <b> User Interfaces & Controls</b>  (Web Development).</li>
+                    </ul>
+                 <p style="font-size: 1.2rem;  text-align: justify; color: #94a3b8;">My goal is to build smart, efficient systems for the energy, industrial, and commercial sectors.</p>
+            </div>
 
 <!--The Infographics  -->       
         
@@ -835,25 +927,25 @@
                     <div id="low">
                         <img id="info" src="fragile-80x80.png" 
                             alt="Reliable"/>
-                            <p>Reliability</p>
+                            <p>I'm Reliable</p>
                     </div>
                             
                     <div id="low">
                         <img id="info" src="scan-80x80.png" 
                             alt="Diligent"/>
-                             <p>Diligence</p>
+                             <p>I'm Diligent</p>
                     </div>
                             
                     <div id="low">
                         <img id="info" src="special-80x80.png" 
                             alt="Precise"/>
-                             <p>Precision</p>
+                             <p>I'm Precise</p>
                     </div>
                             
                     <div id="low">
                         <img id="info" src="transporter-80x80.png" 
                             alt="Good Timing"/>
-                             <p>Punctuality</p>
+                             <p>I'm Punctual</p>
                     </div>
                             
                 </div>
@@ -871,59 +963,87 @@
     <section id="skills" style="background-color: var(--background-dark);">
          <h2 style="margin-top:50px;">Skill Set</h2>
         <h3 style="text-align: center; margin: -40px 0 40px 0; color: var(--primary-color);">
-            (Featuring Technical Skills Only)</h3> 
+            (Core Technical Skills)</h3> 
         <div class="skills-grid">
             
             <div class="skill-category">
-                <h3>Programming</h3>
+                <h3>Responsive Web Development</h3>
+                <h4>(The User Interface Layer)</h4>
                 <ul>
-                    <li>Python (Advanced)</li>
-                    <li>Machine Learning (ML) with Python Programming</li>
-                    <li>Data Science with Python Programming</li>
-                    <li>Pandas, Scikit-learn, TensorFlow (Conceptual)</li>
-                    <li>Data Analytics (HP Certified)</li>
-                    <li>Web Development using Django</li>
-                    <li>Web Development - Responsive Web Design / Full Stack</li>
-                    <li>Assembly Language Coding for Robotics (AVR, PIC)</li>
-                    <li>Computer Aided Designs (CAD) (pad2pad, Multisim 8)</li>
+                    <p class="datemark">Front-End:</p>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript (Angular, JQuery)</li>
+                <br>
+                    <p class="datemark">Web Technologies:</p>
+                    <li>Full-Stack (Frontend/Backend)</li>
+                    <li>Python (Django)</li>
+                    <li>PHP</li>
+                    <li>Nest.JS</li>
+                    <li>React/Redux</li>
+                    <li>MySQL</li>
                 </ul>
             </div>
             <div class="skill-category">
-                <h3> Information Technology</h3>
+                <h3>Machine Learning & Data Science</h3>
+                <h4>(The Intelligence Layer)</h4>
                 <ul>
-                    <li>IT Support / Troubleshooting (Hardware/Software)</li>
-                    <li>Networking and Connectivity:
-                        <br>(IP Addressing, Configuration, IoTs, IIoTs)</li>
-                    <li>Systems Networking</li>
+                    <p class="datemark">Modeling:</p>
+                    <li>Predictive Maintenance (PdM)</li>
+                    <li>Inventory and Expiration Forecasting</li>
+                    <li>Advanced Time-Series</li> 
+                    <li>Financial Forecasting Model</li>
+                    <li>Deep Learning Long Short-Term Memory (LSTM)</li>
+                <br>
+                    <p class="datemark">Tools:</p>
+                    <li>Data Normalization</li>
+                    <li>Pandas</li>
+                    <li>Scikit-learn</li>
+                    <li>TensorFlow</li>
+                    <li>Tkinter</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3> Information Technology (IT) Infrastructure</h3>
+                <h4>(The Communication Layer)</h4>
+                <ul>
+                    <p class="datemark">Systems:</p>
+                    <li>IT Support </li>
+                    <li>Network Configuration (IP/Subnetting)</li> 
                     <li>Core Banking Software Support</li>
-                    <li>CCTV Surveillance Management: 
-                        <br>(Installations, Operations and Servicing)</li>
-                    <li>MS Office Suite, TeamViewer, AnyDesk</li>
-                    <li>System / Help Desk Support</li>
+                    <li>Server Management</li>
+                <br>
+                    <p class="datemark">Security:</p>
+                    <li>CCTV Surveillance</li>
+                    <li>Embedded Systems</li>
+                    <li>Database Security</li>
+                    <li>Virtual Support (TeamViewer, AnyDesk)</li>
                     <li>Audio Video Connectivity and Operations</li>
-                    <li>Installations, Operations of Embedded Systems</li>
+                    <li>MS Office Suite</li>
                 </ul>
             </div>            
-            <div class="skill-category">
-                <h3>Engineering</h3>
+            <div class="skill-cat">
+                <h3>Electrical Engineering</h3>
+                <h4>(The Hardware Layer)</h4>
                 <ul>
-                    <li>Electrical Installations of Buildings (Domestic)</li>
-                    <li>Electrical Installations of Buildings (Industrial)</li>
-                    <li>Electrical Maintenance of Machines</li>
-                    
-                    <li>Construction of Robotics and Mechatronics Devices</li>
-                    <li>Design and Construction of Electronics Circuits:
-                        <br>(Control systems, Anti-theft trigger alarm systems, Darkness Detector)</li>
-                    <li>Design and Construction of Power Electronics Devices: 
-                        <br>(Inverter, AVR, Automatic Power Change Over)</li>
-                    <li>Design and Construction of Power Transformers: 
-                        <br>(Step up/down, Auto, and 3-Phase configurations)</li>
-                    <li>Industrial Automation Operation (Control Systems)</li>
-                    <li>Drawing and Reading Engineering Drawings/ Designs</li>
+                    <p class="datemark">Automation:</p>
+                    <li>IoT Devices</li>
+                    <li>Robotics</li>
+                    <li>Mechatronics</li>
+                    <li>Industrial Control Systems</li>
+
+
+                    <li>Electrical Installations of Buildings</li>
+                    <li>Assembly Language (AVR/PIC, Pad2Pad, Multisim 8)</li>
+                <br>
+                    <p class="datemark">Design:</p>
+                    <li>Electronic Circuits</li>
+                    <li>Power Electronics</li>
+                    <li>Power Transformers</li>
+                    <li>Schematics Reading/Drawing</li>
                 </ul>
             </div>
-            
-
         </div>
     </section>
 
@@ -933,42 +1053,70 @@
         <div class="projects-list">
             
             <div class="project-card">
-                <h3>Machine Learning (ML):</h3>
+                <h3>Machine Learning (ML)</h3>
                     <br><h4 style="text-align: left; margin-top: -40px;">Predictive Maintenance (PdM) Model</h4>
-                <p>Engineered an ML model to forecast the Next Maintenance Time for a production conveyor belt system, demonstrating capability in condition-based monitoring and improving asset uptime.</p>
+                <p>Engineered an ML model to forecast the "Next Maintenance Time" for a production conveyor belt system, demonstrating capability in condition-based monitoring and improving asset uptime through condition-based monitoring.
+                </p>
             </div>
             
             <div class="project-card">
-                <h3>Machine Learning (ML):</h3>
+                <h3>Machine Learning (ML)</h3>
                     <br><h4 style="text-align: left; margin-top: -40px;">Inventory and Expiration Prediction Model</h4>
-                <p>Developed a Machine Learning model to predict item expiration dates and optimize inventory restocking/purchase requirements, directly addressing loss prevention and supply chain efficiency.</p>
+                <p>Developed a Machine Learning model to predict item expiration dates and optimize inventory restocking/purchase requirements, directly addressing loss prevention and supply chain efficiency in the retail industry.
+                </p>
+            </div>
+            
+            <div class="project-card">
+                <h3>Machine Learning (ML)</h3>
+                    <br><h4 style="text-align: left; margin-top: -40px;">Advanced Time-Series and Financial Forecasting Model</h4>
+                <p>Engineered a Deep Learning architecture utilizing Long Short-Term Memory (LSTM) networks to forecast complex financial metrics, to process multi-variate datasets—including currency pairs and market volatility indices for data-driven strategic planning and risk management.
+                </p>
+            </div>
+
+            <!-- <p>Engineered a Deep Learning architecture utilizing Long Short-Term Memory (LSTM) networks to forecast complex financial metrics, such as profitability factors and market trends. Developed an end-to-end data pipeline using Python (TensorFlow/Keras, Scikit-learn) to process multi-variate datasets—including currency pairs and market volatility indices—through custom sequence generation and normalization techniques. The model   by capturing non-linear dependencies in historical data, directly supporting data-driven strategic planning and risk management.</p>-->
+
+            <div class="project-card">
+                <h3>Web Development</h3>
+                    <br><h4 style="text-align: left; margin-top: -40px;">Responsive Web Design</h4>
+                <p>Designed and built a Full Stack Website using Python (Django). I designed and built this responsive single-page portfolio using HTML5, CSS3, and JavaScript, to demonstrate my skills. I have handled E-commerce website and the backend connections. 
+                </p>
             </div>
 
             <div class="project-card">
-                <h3>Robotics:</h3>
-                    <br><h4 style="text-align: left; margin-top: -40px;">Automated Robotic Systems</h4>
-                <p>Contributed to the design and construction of programmable robots (robotic arm, human interactive machine) utilizing Atmega microprocessors and Proximity Sensors for enhanced control systems.</p>
+                <h3>Robotics</h3>
+                    <br><h4 style="text-align: left; margin-top: -40px;">Automated Systems</h4>
+                <p>Contributed to the design and construction of programmable robots (robotic arm, human-interactive machine, etc), using ATmega microprocessors and Proximity Sensors for enhanced control systems.
+                </p>
             </div>
 
             <div class="project-card">
-                <h3>Power Machines:</h3>
+                <h3>Electronics</h3>
+                    <br><h4 style="text-align: left; margin-top: -40px;">Design and Construction</h4>
+                <p>Square Wave Inverter (using 4013 flip-flop IC, 555 Timer, MOSFETs), demonstrating hands-on competence in power management. Automatic Voltage Regulator (AVR), Automatic Power Changeover system, and anti-theft trigger alarm systems.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Power Machines</h3>
                     <br><h4 style="text-align: left; margin-top: -40px;">
                     Low Power Transformers</h4>
-                <p>Designed and constructed various low Power Step - Transformers including Single Phase (Step-up, Step-down, Auto, Manual),  3-Phase (Delta-Star, Star-Star, Delta-Delta) for various  usage of (Step)
+                <p>Designed and constructed various low Power Step - Transformers including Single Phase (Step-up, Step-down, Auto, Manual),  3-Phase (Delta-Star, Star-Star, Delta-Delta).
                 </p>
             </div>
 
             <div class="project-card">
-                <h3>Electronics:</h3>
-                    <br><h4 style="text-align: left; margin-top: -40px;">Electronics and Power Electronics</h4>
-                <p>Designed and constructed Square Wave Inverter (using 4013 flip-flop IC, 555 Timer, MOSFETs), demonstrating hands-on competence in power management. Automatic Voltage Regulator (AVR), Automatic Power Changeover system, and anti-theft trigger alarm systems.
+                <h3>Technical Drawings</h3>
+                    <br><h4 style="text-align: left; margin-top: -40px;">
+                    Schematics and Layouts</h4>
+                <p>I read, understand and draw schematic diagrams of projects playbook. This includes Electricals, Electronics, Mechanical, Geographical, Signage and more. All my projects begin on the drawing board  and climax on delivery or exhibition.
                 </p>
             </div>
-            
+
             <div class="project-card">
-                <h3>Web Development:</h3>
-                    <br><h4 style="text-align: left; margin-top: -40px;">Responsive Web Desing</h4>
-                <p>Designed and built a Full Stack Website based on the Python library - Django. Applying HTML 5, CSS 3, JavaScript (and its library jQuery), i built this simple single page portfolio to demonstrate my skills and abilities.
+                <h3>Electrical</h3>
+                    <br><h4 style="text-align: left; margin-top: -40px;">
+                   Building Installations</h4>
+                <p>Accomplished series of Electrical Installations on domestic building, and partly with a team on Industrial building. CCTV Installation from startup to climax. Handle maintenance services too.
                 </p>
             </div>
         </div>
@@ -1102,14 +1250,23 @@
                     <input type="email" id="email" placeholder="Your Email" required>
                     <textarea id="message" placeholder="Your Message or Comment" rows="6" required></textarea>
                     <button type="submit">Send Message</button>
-
-                    <hr style="margin-top: 30px; border:double var(--secondary-color);max-width: 1125px;">
-                    <h3 style="margin-top: 10px;">Other Abilities</h3>
-                    
-                    <p class="datemark">Proficient in English, Pidgin, Sign Language (ASL, NNS), swimming and driving.</p>
                 </form>
-                
             </div>
+
+            <div style="margin: 15px;" class="glass-do">
+                <h3 style="margin-top: 10px;">Other Abilities</h3>
+                <hr style="margin: 15px; border:double var(--secondary-color);max-width: 1125px;">
+
+                <p style="font-size: 1.2rem;">Beyond technical skills, I bring a well-rounded set of personal capabilities to a team:
+                    <ul style="margin: 10px 10px 10px 40px; font-size: 1.2rem;  text-align: justify;">
+                        <li>Multilingual and Inclusive: Proficient in English, Pidgin, and Sign Language (ASL, NNS).</li>
+                        <li>Operational: Licensed driver, proficient swimmer, and safety-trained team player.</li>
+                        <li>Reliable Lead: Experienced in managing teams (CCTV, HR, and I.C.T. departments).</li>
+                        <li>Soft Skills: Resilient, analytical, self-motivated, and able to prioritize tasks with high reliability in fast paced environments.</li>
+                        <li>Book Writing: Author to many books. (Series, epic, true-to-life, Sci-Fi and forensics / crime fighting, etc.)</li>
+                    </ul>
+                 </p>                
+            </div><br>
         </div>
     </section>
 
