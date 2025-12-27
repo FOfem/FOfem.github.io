@@ -401,15 +401,22 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
 
+        .skill-category ul {
+            list-style: none;
+        }
+
+        .skill-category .subhead {
+            grid-column: 1 / -1;
+            font-weight: bold;
+            margin-top: 10px;
+            color: var(--secondary-color);
+        }
+
         .skill-category h3 {
             color: var(--primary-color);
             border-bottom: 2px solid var(--secondary-color);
             padding-bottom: 5px;
             margin-bottom: 15px;
-        }
-
-        .skill-category ul {
-            list-style: none;
         }
 
         .skill-category li {
@@ -430,18 +437,30 @@
         .skill-cat {
             background: var(--glass);
             border: 1px solid var(--glass-border);
-            padding: 30px;
+            padding: var(--padding-base); /* Kept consistent with other cards*/
             backdrop-filter: blur(120px);
-            margin-bottom: 2rem auto;
-            max-width: 1160px;
-            border-radius: 15px;
-            width: 90vw; /* 90% of screen width */
-
-            background-color: var(--background-dark);
-            padding: var(--padding-base);
             border-radius: var(--border-radius);
+            width: auto; /* Responsiveness, not a fix like 90vw restriction */
+            grid-column: 1 / -1; /* To make it span across all available grid columns */
+            background-color: var(--background-dark);
             border-top: 4px solid var(--primary-color);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Adjustments for the list inside to make better use of the wide space */
+        .skill-cat ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+
+        /* Ensure the sub-headers (Automation/Design) still look good */
+        .skill-cat .subhead {
+            grid-column: 1 / -1;
+            font-weight: bold;
+            margin-top: 10px;
+            color: var(--secondary-color);
         }
 
         .skill-cat h3 {
@@ -449,10 +468,6 @@
             border-bottom: 2px solid var(--secondary-color);
             padding-bottom: 5px;
             margin-bottom: 15px;
-        }
-
-        .skill-cat ul {
-            list-style: none;
         }
 
         .skill-cat li {
@@ -970,12 +985,12 @@
                 <h3>Responsive Web Development</h3>
                 <h4>(The User Interface Layer)</h4>
                 <ul>
-                    <p class="datemark">Front-End:</p>
+                    <p class="subhead">Front-End:</p>
                     <li>HTML5</li>
                     <li>CSS3</li>
                     <li>JavaScript (Angular, JQuery)</li>
                 <br>
-                    <p class="datemark">Web Technologies:</p>
+                    <p class="subhead">Web Technologies:</p>
                     <li>Full-Stack (Frontend/Backend)</li>
                     <li>Python (Django)</li>
                     <li>PHP</li>
@@ -988,19 +1003,20 @@
                 <h3>Machine Learning & Data Science</h3>
                 <h4>(The Intelligence Layer)</h4>
                 <ul>
-                    <p class="datemark">Modeling:</p>
+                    <p class="subhead">Modeling:</p>
                     <li>Predictive Maintenance (PdM)</li>
                     <li>Inventory and Expiration Forecasting</li>
                     <li>Advanced Time-Series</li> 
                     <li>Financial Forecasting Model</li>
                     <li>Deep Learning Long Short-Term Memory (LSTM)</li>
                 <br>
-                    <p class="datemark">Tools:</p>
+                    <p class="subhead">Tools:</p>
                     <li>Data Normalization</li>
                     <li>Pandas</li>
                     <li>Scikit-learn</li>
                     <li>TensorFlow</li>
                     <li>Tkinter</li>
+                    <li>Assembly Language (AVR/PIC, Pad2Pad, Multisim 8)</li>
                 </ul>
             </div>
 
@@ -1008,13 +1024,13 @@
                 <h3> Information Technology (IT) Infrastructure</h3>
                 <h4>(The Communication Layer)</h4>
                 <ul>
-                    <p class="datemark">Systems:</p>
+                    <p class="subhead">Systems:</p>
                     <li>IT Support </li>
                     <li>Network Configuration (IP/Subnetting)</li> 
                     <li>Core Banking Software Support</li>
                     <li>Server Management</li>
                 <br>
-                    <p class="datemark">Security:</p>
+                    <p class="subhead">Security:</p>
                     <li>CCTV Surveillance</li>
                     <li>Embedded Systems</li>
                     <li>Database Security</li>
@@ -1022,27 +1038,23 @@
                     <li>Audio Video Connectivity and Operations</li>
                     <li>MS Office Suite</li>
                 </ul>
-            </div>            
+            </div>
             <div class="skill-cat">
                 <h3>Electrical Engineering</h3>
                 <h4>(The Hardware Layer)</h4>
                 <ul>
-                    <p class="datemark">Automation:</p>
+                    <p class="subhead">Automation:</p>
                     <li>IoT Devices</li>
                     <li>Robotics</li>
                     <li>Mechatronics</li>
                     <li>Industrial Control Systems</li>
 
-
-                    <li>Electrical Installations of Buildings</li>
-                    <li>Assembly Language (AVR/PIC, Pad2Pad, Multisim 8)</li>
-                <br>
-                    <p class="datemark">Design:</p>
+                    <p class="subhead">Design:</p>
                     <li>Electronic Circuits</li>
                     <li>Power Electronics</li>
                     <li>Power Transformers</li>
-                    <li>Schematics Reading/Drawing</li>
-                </ul>
+                    <li>Schematics Reading / Drawing</li>
+                </ul> 
             </div>
         </div>
     </section>
