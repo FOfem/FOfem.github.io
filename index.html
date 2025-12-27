@@ -61,7 +61,7 @@
             padding: 0 20px;
         }
 
-        /* --- HEADER STYLES --- */
+/* --- HEADER STYLES --- */
         header {
             background-color: var(--other-color); /* Dark background for the header */
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
@@ -269,7 +269,7 @@
         }
 
 
-        /* --- Hero Section --- */
+/* --- Hero Section --- */
         #hero {
             box-shadow: 5px 5px 4px 5px #888888; 
             border-radius: 0px 0px 5px 5px; 
@@ -297,7 +297,7 @@
             margin-top: 10px;
         }
 
-        /* --- About Me Section --- */
+/* --- About Me Section --- */
         #about {
             background-color: var(--background-light);
         }
@@ -309,21 +309,62 @@
             margin: 0 auto;
         }
 
-       .glass-home {
-            background: var(--glass);
+        .glass-home {
+            background: var(--background-dark);
             border: 1px solid var(--glass-border);
-            padding: 30px;
+            padding: 5px;
             backdrop-filter: blur(120px);
-            margin-bottom: 2rem auto;
+            margin: 2rem auto;
             max-width: 900px;
             border-radius: 15px;
             width: 90vw; /* 90% of screen width */
             box-shadow: 0 10px 20px rgba(0,0,0,0.7);
         }
+        
+        .glass-card{
+            padding: 30px; 
+            background:  var(--background-dark);
+            border: 1px solid var(--glass-border);
+            border-radius: 10px;
+        }
 
-        /* --- Infograghic --- */
+        /* Simple Way To Animate: The glass-home element */
+        .glass-home::after, .glass-home::before {
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background-image: conic-gradient(from var(--angle), #ff0000, #ff9800, #ffff00, #00ff00, #00bcd4, #0000ff, #8b00ff, #ff0000 );
+            top: 50%;
+            left: 50%;
+            translate: -50% -50%;
+            z-index: -1;
+            padding: 5px;
+            border-radius: 10px;
+            animation: 3s spin linear infinite;
+        }
 
+        @property --angle{
+            syntax: "<angle>";
+            initial-value: 0deg;
+            inherits: false;
+       }
+        .glass-home::before {
+            filter: blur(1.5rem);
+            opacity: 0.5;
+        }
 
+        @keyframes spin{
+            from{
+                --angle: 360deg;
+            }
+            to{
+                --angle: 0deg;
+            }
+        }
+
+        
+    /* --- Infograghic --- */
         /* Existing Global Styles (For context) */
         :root {
             --primary-color: #00bcd4;
@@ -385,7 +426,7 @@
             border-bottom: 3px solid var(--primary-color);
             height: 150px;
         }
-            /* --- Skills Section --- */
+/* --- Skills Section --- */
         .skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -399,6 +440,11 @@
             border-radius: var(--border-radius);
             border-top: 4px solid var(--primary-color);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .skill-category:hover {
+            transform: translateY(-5px);
+            border: 5px solid var(--glass-border);
         }
 
         .skill-category ul {
@@ -447,6 +493,12 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
 
+        .skill-cat:hover {
+            transform: translateY(-5px);
+            border: 5px solid var(--glass-border);
+        }
+
+
         /* Adjustments for the list inside to make better use of the wide space */
         .skill-cat ul {
             list-style: none;
@@ -485,7 +537,7 @@
             margin-left: -1em;
         }
 
-        /* --- Projects Section --- */
+/* --- Projects Section --- */
         .projects-list {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -493,30 +545,80 @@
         }
 
         .project-card {
+            position: relative; /* Required for pseudo-elements */
             background-color: var(--background-light);
             border-radius: var(--border-radius);
             padding: var(--padding-base);
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
-            border-left: 5px solid var(--secondary-color);
+            /* We remove the fixed border-left to allow the animation to
+        surround the card */
+            border: none;
+            overflow: hidden; /* Clips the rotating gradient */
+            z-index: 1;
             transition: transform 0.3s;
         }
 
+        /* The Animated Background Layer */
+        .project-card::before {
+            content: '';
+            position: absolute;
+            /* Centered larger than the card to ensure corners are covered
+        during rotation */
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            /* Default: Moving your 3 specific colors Right to Left
+        (Counter-Clockwise) */
+            background: conic-gradient(
+                var(--primary-color),
+                var(--secondary-color),
+                var(--other-color),
+                var(--primary-color)
+        );
+             animation: revolveRightToLeft 4s linear infinite;
+            z-index: -2;
+        }
+        /* The Inner Mask (Makes the center dark so only the edge shows as a
+        border) */
+        .project-card::after {
+            content: '';
+            position: absolute;
+            inset: 4px; /* Thickness of the border */
+            background: var(--background-light);
+            border-radius: calc(var(--border-radius) - 2px);
+            z-index: -1;
+        }
+        /* Ensure text stays visible and white */
+        .project-card h3, .project-card h4, .project-card p {
+            position: relative;
+        z-index: 2; }
+        /* --- HOVER STATE --- */
+        .project-card:hover::before {
+            /* Full Rainbow Colors */
+            background: conic-gradient(
+                #ff0000, #ff9800, #ffff00, #00ff00, #00bcd4, #0000ff, #8b00ff,
+        #ff0000 );
+            /* Reverse direction: Left to Right (Clockwise) */
+            animation: revolveLeftToRight 2s linear infinite;
+        }
         .project-card:hover {
             transform: translateY(-5px);
-            border-left: 5px solid var(--primary-color);
+        }
+        /* --- ANIMATIONS --- */
+        /* Right to Left (Counter-Clockwise) */
+        @keyframes revolveRightToLeft {
+            from { transform: rotate(360deg); }
+            to { transform: rotate(0deg); }
+        }
+        /* Left to Right (Clockwise) */
+        @keyframes revolveLeftToRight {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+
         }
 
-        .project-card h4 {
-            color: var(--primary-color);
-            font-size: 1.2em;
-            margin-bottom: 10px;
-        }
-
-        .project-card p {
-            font-size: 0.95em;
-        }
-        
-        /* --- Experience Section --- */
+/* --- Experience Section --- */
 
         .datemark {
             color: var(--text-muted);
@@ -704,7 +806,7 @@
         }
 
 
-        /* --- Educate-Contact ---*/ 
+    /* --- Educate-Contact ---*/ 
 
         .Educate-Contact {
             font-size: 2.5em;
@@ -723,7 +825,7 @@
         }
         
 
-        /* --- Contact Me Section ----*/
+/* --- Contact Me Section ----*/
 
         .contact-info {
             list-style: none;
@@ -769,7 +871,7 @@
         }
 
 
-        /* --- Comment Form ----*/
+    /* --- Comment Form ----*/
 
         .comment-form {
             flex: 2;
@@ -825,7 +927,7 @@
             box-shadow: 0 10px 20px rgba(0,0,0,0.7);
         }
 
-        /* --- Footer --- */
+/* --- Footer --- */
         footer {
             text-align: center;
             padding: 20px var(--padding-base);
@@ -920,18 +1022,19 @@
                 I hold certifications in Data Analytics, Advanced Python Development, and Machine Learning Engineering. My unique ability to develop Predictive Maintenance (PdM) and automated solutions—leveraging deep technical knowledge and digital expertise—has a proven track record. By harnessing IoT and data analytics to drive operational efficiency in the pharmaceutical, banking, and retail sectors, I provide solutions that stand out. I am also a skilled Full-Stack Web Developer.
             </p>
 
-            <div style="margin-top: 25px;" class="glass-home">
-    
-                <h3 style="font-size: 1.5rem; color: var(--primary-color);">Why Hire Me?</h3>
+            <div class="glass-home">
+                <div class="glass-card">
+                    <h3 style="font-size: 1.5rem; color: var(--primary-color);">Why Hire Me?</h3>
 
-                <p style="font-size: 1.2rem;  text-align: justify; color: #94a3b8;">I specialize in bridging the gap between Physical Hardware and Digital Intelligence. I provide end-to-end technical solutions by:</p>
-                    <ul style="margin: 10px 10px 10px 40px; font-size: 1.2rem;  text-align: justify; color: #94a3b8;">
-                        <li>Building the <b>Hardware Systems</b> (Electrical/Electronics Engineering).</li>
-                        <li>Networking them for <b> Communication</b>  (IT Infrastructure).</li>
-                        <li>Providing <b> Intelligence</b>  to make them smart (Machine Learning & Data Science).</li>
-                        <li>Creating <b> User Interfaces & Controls</b>  (Web Development).</li>
-                    </ul>
-                 <p style="font-size: 1.2rem;  text-align: justify; color: #94a3b8;">My goal is to build smart, efficient systems for the energy, industrial, and commercial sectors.</p>
+                    <p  style="font-size: 1.2rem; text-align: justify; color: #94a3b8;">I specialize in bridging the gap between Physical Hardware and Digital Intelligence. I provide end-to-end technical solutions by:</p>
+                        <ul style="margin: 10px 10px 10px 40px; font-size: 1.2rem;  text-align: justify; color: #94a3b8;">
+                            <li>Building the <b>Hardware Systems</b> (Electrical/Electronics Engineering).</li>
+                            <li>Networking them for <b> Communication</b>  (IT Infrastructure).</li>
+                            <li>Providing <b> Intelligence</b>  to make them smart (Machine Learning & Data Science).</li>
+                            <li>Creating <b> User Interfaces & Controls</b>  (Web Development).</li>
+                        </ul>
+                     <p style="font-size: 1.2rem;  text-align: justify; color: #94a3b8;">My goal is to build smart, efficient systems for the energy, industrial, and commercial sectors.</p>
+                </div>
             </div>
 
 <!--The Infographics  -->       
