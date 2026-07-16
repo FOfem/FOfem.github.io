@@ -1,0 +1,55 @@
+{
+    "last_update": "July 16, 2026 | 04:10 PM",
+    "status": "Online",
+    "total_found": 6,
+    "logs": [
+        "[16:10:21] SUCCESS: Machine Learning (3 found)",
+        "[16:10:23] SUCCESS: Front-End / React (3 found)",
+        "[16:10:26] SUCCESS: Writing / Creative (0 found)",
+        "[16:10:29] SUCCESS: Virtual Assistant (0 found)"
+    ],
+    "findings": [
+        {
+            "query": "Machine Learning",
+            "jobs": [
+                {
+                    "position": "Entry Level Crypto Market Specialist",
+                    "link": "https://remoteok.com/remote-jobs/remote-entry-level-crypto-market-specialist-apex-trade-1134871"
+                },
+                {
+                    "position": "Junior Crypto Trader",
+                    "link": "https://remoteok.com/remote-jobs/remote-junior-crypto-trader-atom-partners-limited-1134351"
+                },
+                {
+                    "position": "Virtual Assistant",
+                    "link": "https://remoteok.com/remote-jobs/remote-virtual-assistant-somewhere-1134914"
+                }
+            ]
+        },
+        {
+            "query": "Front-End / React",
+            "jobs": [
+                {
+                    "position": "Graphic Designer",
+                    "link": "https://remoteok.com/remote-jobs/remote-graphic-designer-youfibre-1134925"
+                },
+                {
+                    "position": "Project Manager",
+                    "link": "https://remoteok.com/remote-jobs/remote-project-manager-empire-life-1134867"
+                },
+                {
+                    "position": "Trabaja como canguro Ayuda con los deberes",
+                    "link": "https://remoteok.com/remote-jobs/remote-trabaja-como-canguro-ayuda-con-los-deberes-tus-media-1134927"
+                }
+            ]
+        },
+        {
+            "query": "Writing / Creative",
+            "jobs": []
+        },
+        {
+            "query": "Virtual Assistant",
+            "jobs": []
+        }
+    ]
+}
