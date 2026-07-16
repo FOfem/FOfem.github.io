@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-THEME CLOCK - Web App. (Version: 1.00)</title>
+    <link rel="stylesheet" href="../static/css/xtheme.css">
+</head>
+<body class="theme-dark"> <div class="clock-container">
+
+    <!---- 
+X-THEME CLOCK - Web App. (Version: 1.00)
+ Key Features Included:
+     * Dynamic vs Static: In Dynamic mode (06:00 - 17:59), the clock shifts to Light mode automatically.
+     * 12h/24h Toggle: Just click the time on the screen to switch between 24-hour and 12-hour formats.
+
+ ---->
+        <header id="date-display">SUNDAY, JANUARY 25, 2026</header>
+        <main id="time-display" title="Click to toggle 12/24h">19:03:34</main>
+        
+        <div class="controls">
+            <div class="theme-selector">
+                <button onclick="setTheme('system')" id="btn-system">SYSTEM</button>
+                <button onclick="setTheme('dark')" id="btn-dark">DARK</button>
+                <button onclick="setTheme('light')" id="btn-light">LIGHT</button>
+            </div>
+            
+            <div class="mode-toggle">
+                <span>STATIC</span>
+                <label class="switch">
+                    <input type="checkbox" id="mode-switch" onchange="toggleMode()">
+                    <span class="slider"></span>
+                </label>
+                <span>DYNAMIC CHRONO-MODE</span>
+            </div>
+        </div>        
+<br>
+       <div> <a href="forracorp.html?id=trove1h" class="click"> Return Back to Projects Gallery </a></div>
+
+    </div>
+
+        <script src="../FOfem.github.io/static/js/xtheme.js"></script>
+
+
+</body>
+</html>
+
+
+
+
