@@ -1,8 +1,10 @@
+# Updated 20260802
+
 name: ForraCorp Live Pipeline
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs automatically at midnight
+    - cron: '0 0,3,6,9,12,15,18,21 * * *' # Runs automatically at midnight
   workflow_dispatch:  # Allows manual triggers via the Actions tab
 
 jobs:
