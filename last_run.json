@@ -1,28 +1,28 @@
 {
-    "last_update": "July 16, 2026 | 04:10 PM",
+    "last_update": "August 03, 2026 | 01:22 AM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[16:10:21] SUCCESS: Machine Learning (3 found)",
-        "[16:10:23] SUCCESS: Front-End / React (3 found)",
-        "[16:10:26] SUCCESS: Writing / Creative (0 found)",
-        "[16:10:29] SUCCESS: Virtual Assistant (0 found)"
+        "[01:22:34] SUCCESS: Machine Learning (3 found)",
+        "[01:22:37] SUCCESS: Front-End / React (3 found)",
+        "[01:22:40] SUCCESS: Writing / Creative (0 found)",
+        "[01:22:43] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
             "query": "Machine Learning",
             "jobs": [
                 {
-                    "position": "Entry Level Crypto Market Specialist",
-                    "link": "https://remoteok.com/remote-jobs/remote-entry-level-crypto-market-specialist-apex-trade-1134871"
+                    "position": "GenAI Engineer AI Builder AI Agent Associate Specialist",
+                    "link": "https://remoteok.com/remote-jobs/remote-genai-engineer-ai-builder-ai-agent-associate-specialist-magic-compass-limited-1135735"
                 },
                 {
-                    "position": "Junior Crypto Trader",
-                    "link": "https://remoteok.com/remote-jobs/remote-junior-crypto-trader-atom-partners-limited-1134351"
+                    "position": "Senior Software Engineer",
+                    "link": "https://remoteok.com/remote-jobs/remote-senior-software-engineer-stellar-ai-1128869"
                 },
                 {
-                    "position": "Virtual Assistant",
-                    "link": "https://remoteok.com/remote-jobs/remote-virtual-assistant-somewhere-1134914"
+                    "position": "Senior Demand Generation Manager",
+                    "link": "https://remoteok.com/remote-jobs/remote-senior-demand-generation-manager-testgorilla-1135606"
                 }
             ]
         },
@@ -30,16 +30,16 @@
             "query": "Front-End / React",
             "jobs": [
                 {
-                    "position": "Graphic Designer",
-                    "link": "https://remoteok.com/remote-jobs/remote-graphic-designer-youfibre-1134925"
+                    "position": "Product Engineer",
+                    "link": "https://remoteok.com/remote-jobs/remote-product-engineer-superplane-1135739"
                 },
                 {
-                    "position": "Project Manager",
-                    "link": "https://remoteok.com/remote-jobs/remote-project-manager-empire-life-1134867"
+                    "position": "Supply Chain & Operations Specialist",
+                    "link": "https://remoteok.com/remote-jobs/remote-supply-chain-amp-operations-specialist-miss-amara-1135691"
                 },
                 {
-                    "position": "Trabaja como canguro Ayuda con los deberes",
-                    "link": "https://remoteok.com/remote-jobs/remote-trabaja-como-canguro-ayuda-con-los-deberes-tus-media-1134927"
+                    "position": "Healthcare Virtual Assistant Athena EMR Experience",
+                    "link": "https://remoteok.com/remote-jobs/remote-healthcare-virtual-assistant-athena-emr-experience-snapscale-philippines-1135688"
                 }
             ]
         },
