@@ -67,7 +67,7 @@ footer,
     margin: -150px 0 -50px 0; 
     padding: 300px 0 50px 0; 
     background: linear-gradient(135deg, #05070a 0%, #1e1405 100%);
-    border-left: 4px solid #ff9d00;
+    border-left: 4px solid #ff4d4d;
 }
 
 /* --- Pillar 04: Security (Tactical Deep Green) --- */
@@ -91,7 +91,7 @@ footer,
     margin: -150px 0 -50px 0; 
     padding: 300px 0 50px 0;
     background: linear-gradient(135deg, #05070a 0%, #1a0505 100%);
-    border-left: 4px solid #ff4d4d;
+    border-left: 4px solid #ff9d00;
 }
 
 /* --- Trove Detail Sections (Neutral Dark) --- */
