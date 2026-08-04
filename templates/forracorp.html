@@ -26,7 +26,6 @@
 
     <div class="HOD">
         <h1 class="logotext">Forra Corporation</h1> 
-
         <nav id="main-nav" class="navbar">
                 <ul class="nav-links">
                     <li class="dropdown-main">
@@ -102,9 +101,10 @@
                                 </li>
                             </ul>
                         </li>
+
                         <li><a href="../index.html">Portfolio</a></li>
-                        <li><a href="pearls.html">AI Training</a></li>
-                        <li><a href="forranova.html">AI Chat-Show</a></li>
+                        <li><a href="https://forranova.github.io">ForraNova</a></li>
+                        <li><a href="https://forranova.github.io/templates/chat-show.html">Chat Show</a></li>
                         <li><a href="../index.html#contact">Connect</a></li>
                     </ul>
                 </nav> 
@@ -125,16 +125,87 @@
 
         <section id="category" class="page-section active">
             <h3 class="section-title">THE FORRACORP PROJECTS GALLERY</h3>
+            <p class="tagline"><b>Resilience</b> in innovation. <b>Precision</b> in design. <b>Durability</b> in service.</p>
 
             <div class="intro">
                 <h3>A Convergence of Craftsmanship and Innovation: <br>Over Two Decades of Engineering Excellence by Ubi Fredrick.</h3>
 
-                <p>Welcome to the official digital Projects Gallery of <a href="https://fofem.github.io#aboutme">Ubi Fredrick</a>, the Chief Architect and Principal Engineer behind ForraCorp. This platform serves as a comprehensive display of a multi-disciplinary journey spanning over twenty years—a journey from the precision of hardware engineering to the frontier of Artificial Intelligence and strategic leadership.</p>
-                <p>ForraCorp is the commercial vehicle through which I deliver high-level, bespoke solutions to global clients. Whether I am 'talking to an AI' through prompt or it is an automated Python script, a resilient power infrastructure, or a cinematic literary epic, I remain the primary visionary and lead engineer behind every project featured here. Explore a legacy built on the principle that <i>"knowledge is for the living,"</i> and excellence is the only standard.</p>
+                <p>Welcome to the official digital Projects Gallery of <a href="https://fofem.github.io#aboutme" class="logon">Ubi Fredrick</a> (also known as Ethan), Chief Architect and Principal Engineer behind <strong>ForraCorp</strong> — the Entity through which twenty years of multidisciplinary mastery take shape.</p>
 
+                <p>ForraCorp is the corporate vehicle behind every solution bearing this name: from AI systems and automated scripts to resilient power infrastructure and cinematic literary works. Across more than 37 accomplished projects and counting, one principle holds constant — the architect at the centre never changes.</p>
+
+                <p>This is engineering built on a single conviction: <em>"knowledge is for the living"</em>, and excellence is the only acceptable standard.</p>
+
+                <p>Explore the <a href="#pillar01" class="dropdown-toggle" onclick="router('pillar01')" class="cta"><strong>Projects Gallery →</strong></a>, or step onto its Sector, <a href="https://forranova.github.io" class="cta"><strong>ForraNova  →</strong></a>, the instructional Domain of ForraCorp, where a trained trainer's legacy is distilled into structured, accessible learning.</p>
+            </div>
+
+            <!------------------------------------------------------->
+            <!----------- SECTION: QUICK SCAN PROJECT INDEX --------->
+            <!------------------------------------------------------->
+            <section id="quickScan" class="quick-scan" aria-label="Filterable project index">
+                <div class="qs-header">
+                    <h4><i class="fa-solid fa-bolt"></i> Quick Scan — All Projects</h4>
+                    <p>Search, filter, and sort the full gallery below. Expand a card for a fast preview, or jump straight into the full case study.</p>
+                </div>
+
+                <div class="qs-controls">
+                    <div class="qs-field qs-field-search">
+                        <label for="qsSearch"><i class="fa-solid fa-magnifying-glass"></i></label>
+                        <input type="text" id="qsSearch" placeholder="Search title, skill, or tool…" autocomplete="off">
+                    </div>
+
+                    <div class="qs-field">
+                        <label for="qsPillar">Pillar</label>
+                        <select id="qsPillar">
+                            <option value="all">All Pillars</option>
+                        </select>
+                    </div>
+
+                    <div class="qs-field">
+                        <label for="qsTech">Tech / Skill</label>
+                        <select id="qsTech">
+                            <option value="all">All Tech &amp; Skills</option>
+                        </select>
+                    </div>
+
+                    <div class="qs-field">
+                        <label for="qsYear">Year</label>
+                        <select id="qsYear">
+                            <option value="all">All Years</option>
+                        </select>
+                    </div>
+
+                    <div class="qs-field">
+                        <label for="qsSort">Sort</label>
+                        <select id="qsSort">
+                            <option value="pillar">By Pillar</option>
+                            <option value="newest">Newest First</option>
+                            <option value="oldest">Oldest First</option>
+                            <option value="az">Title A–Z</option>
+                        </select>
+                    </div>
+
+                    <button id="qsReset" type="button" class="qs-reset" title="Clear all filters">
+                        <i class="fa-solid fa-rotate-left"></i> Reset
+                    </button>
+                </div>
+
+                <p id="qsCount" class="qs-count" aria-live="polite"></p>
+
+                <div id="qsGrid" class="qs-grid"><!-- Cards injected by JS: see quick-scan script near </body> --></div>
+
+                <p id="qsEmpty" class="qs-empty" hidden>No projects match those filters. <button id="qsEmptyReset" type="button" class="qs-inline-reset">Clear filters</button></p>
+            </section>
+            <!------------------------------------------------------->
+            <!--------- END SECTION: QUICK SCAN PROJECT INDEX ------->
+            <!------------------------------------------------------->
+
+            <div class="intro">
                 <h6>Thematic Highlights</h6>
                 <p>I have categorized my projects into six thematic pillars.</p>
             </div>
+
+
             <div class="font-grid">
                 <a onclick="router('pillar01')"> 
                     <div class="font-card">
@@ -203,8 +274,8 @@
                 </a>
             </div>
 
-            <div class="intro"><h3>My Technical & Linguistic Skills Matrix:</h3></div><br>
-            <h5 class="sectionID">Technical Skills</h5>
+            <div class="intro"><h3>My Skills Matrix:</h3></div><br>
+            <h5 class="tagline">Technical Skills</h5>
             <table>
               <tr>
                 <th>Category</th>
@@ -249,7 +320,7 @@
               </tr>
             </table>
             
-            <h5 class="sectionID">Linguistic Skills</h5> 
+            <h5 class="tagline">Linguistic Skills</h5> 
             <table>
               <tr>
                 <th>Language Group / Script</th>
@@ -775,7 +846,9 @@
                     <div class="introH"><img src="../static/images/model$0.png" alt="Data Visualizations"></div>
                       
                     <h5>Skills / Tools Leveraged</h5>
-                    <p>This project showcases my ability to blur the lines between fiction and reality. I utilized Python, TensorFlow/Keras, and Scikit-Learn. The core architecture relies on Long Short-Term Memory (LSTM) networks, which are specialized for sequence prediction. For data preparation, I used Min-Max Scaler (MinMaxScaler) to normalize financial data, ensuring the model could handle volatility. This project demonstrates my proficiency in handling "Time-Series" data—arguably the most complex data type—and my ability to translate a fictional <i>"Shadow Agent"</i> concept into a working, deployable Python script.</p>
+                    <p>This project showcases my ability to clearly distinguish the line between fiction and reality. I utilized Python, TensorFlow/Keras, and Scikit-Learn. The core architecture relies on Long Short-Term Memory (LSTM) networks, which are specialized for sequence prediction. For data preparation, I used Min-Max Scaler (MinMaxScaler) to normalize financial data, ensuring the model could handle volatility. This project demonstrates my proficiency in handling "Time-Series" data—arguably the most complex data type—and my ability to translate a fictional <i>"Shadow Agent"</i> concept into a working, deployable Python script.</p>
+
+                    <p>NOTE: While this project was done mainly for the book, the code and application is real and very practical. </p>
 
                     <h5>The Challenge / Need / Problem</h5>
                     <p>While the protagonist of my novel, <a onclick="router('trove6a')" class="introLink">The Shadow Agent,</a> utilizes these systems to track criminal syndicates, the real-world application addresses market volatility and complex financial trends. Traditional linear models (like Moving Averages) fail to capture the non-linear, "hidden" patterns in sequential data. The problem was to create a model that doesn't just look at the last price, but understands the temporal dependencies—the "memory" of what happened days or weeks ago—to predict the next move with high precision.</p>
@@ -944,7 +1017,7 @@ print(f"Predicted Syndicate Profit Factor (Original Scale): {predicted_factor:.2
                     <p>This project required a deep dive into <b>Supply Chain Analytics and Supervised Learning</b>. I utilized <b>Python (Pandas, Scikit-Learn)</b> and <b>XGBoost</b>, an optimized gradient boosting library. Key techniques included "Feature Engineering" (creating variables for holidays, seasons, and shelf-life) and "Classification algorithms." I also leveraged <b>SQL</b> for data extraction from the retail outlet's Point of Sale (POS) system. This project demonstrates my ability to solve tangible business problems using data-driven decision-making and predictive logic.</p>
 
                     <h5>The Challenge / Need / Problem</h5>
-                    <p>In 2024, a retail outlet faced a critical issue: <i>Massive waste due to expired goods and frequent "stock-outs" of high-demand items</i>. The manual inventory system couldn't account for the varying shelf-lives of different products or the fluctuating demand patterns of the local community. They were losing approximately 15% of their perishable inventory to expiration and missing out on 10% of potential sales due to poor replenishment timing. The need was for a system that could predict <i>exactly</i> when an item would sell out or expire.</p>
+                    <p>In 2024, a retail outlet faced a critical issue, <i>a massive waste due to expired goods and frequent "stock-outs" of high-demand items</i>. The manual inventory system couldn't account for the varying shelf-lives of different products or the fluctuating demand patterns of the local community. They were losing approximately 15% of their perishable inventory to expiration and missing out on 10% of potential sales due to poor replenishment timing. The need was for a system that could predict <i>exactly</i> when an item would sell out or expire.</p>
                     
                     <h5>The Solution</h5>
                     <p>I implemented a <b>Predictive Inventory Lifecycle Model</b>. By analyzing historical sales data alongside "Date of Manufacture" and "Expiry Date" metadata, I built a model that assigns a "Risk Score" to every batch in the warehouse. The solution utilized a <b>Random Forest Regressor</b> to predict demand and a <b>Logistic Regression</b> classifier to flag items likely to expire within a 7-day window. This allowed the outlet to run "Flash Sales" on at-risk items and automate re-ordering for fast-moving goods, effectively synchronizing supply with actual consumption.</p>
@@ -1052,7 +1125,7 @@ daily_df = daily_df.dropna()
                     <p>I was the End-to-End Solutions Architect. I conducted the initial "Pain Point" discovery with the retail staff, cleaned the "dirty" POS data, and engineered the features that the model used. I didn't just provide code; I provided a Business Strategy. I designed the dashboard that the manager uses to view "Expiration Risks" and fine-tuned the model to prioritize "Perishables" over "Non-perishables," ensuring the most critical items were handled first.</p>
 
                     <h5>The Results</h5>
-                    <p>Within six months of implementation, the retail outlet saw a 40% reduction in food waste and a 22% increase in inventory turnover. The "Predictive Replenishment" feature ensured that high-demand items were never out of stock for more than 4 hours, compared to the previous average of 2 days. The project was so successful that it served as a case study for local retail optimization, proving the power of ML in small-to-medium enterprise (SME) environments.</p>
+                    <p>Within six months of implementation, the retail outlet (Gain More Supermarket) saw a 40% reduction in food waste and a 22% increase in inventory turnover. The "Predictive Replenishment" feature ensured that high-demand items were never out of stock for more than 4 hours, compared to the previous average of 2 days. The project was so successful that it served as a case study for local retail optimization, proving the power of ML in small-to-medium enterprise (SME) environments.</p>
 
                     <h5>Future Upgrade</h5>
                     <p>A Computer Vision (CV) can be integrated via shelf-mounted cameras. This would allow the model to track "Real-Time Stock Levels" without manual entry. By using a YOLO (You Only Look Once) object detection model, the system could automatically update the inventory database as customers pick items off the shelf, making the prediction model even more accurate by removing human entry errors.</p>
@@ -1111,7 +1184,7 @@ daily_df = daily_df.dropna()
                     <p>This industrial project involved Sensor Data Fusion and Binary Classification. I utilized Python, SciPy, and Matplotlib for signal processing and Support Vector Machines (SVM) for fault detection. Working within a Pharmaceutical environment, I also had to adhere to strict Compliance and Precision Standards. My skills in "Anomaly Detection" and "Feature Scaling" were crucial here, as industrial sensors often produce noisy data that requires sophisticated filtering before it can be fed into a Machine Learning model.</p>
 
                     <h5>The Challenge / Need / Problem</h5>
-                    <p>In 2023, a pharmaceutical plant’s conveyor system was suffering from unplanned downtime. In drug manufacturing, a conveyor failure isn't just a delay; it can ruin entire batches of temperature-sensitive medication, costing thousands of dollars. The existing strategy was "Preventative Maintenance" (fixing it every 3 months regardless of condition), which was wasteful and still didn't prevent mid-cycle breakdowns. The challenge was to move to Predictive Maintenance: identifying a failure before it happened by listening to the machine's "vibration signatures."</p>
+                    <p>In 2023, a pharmaceutical plant’s (Reagan Remedies Ltd) conveyor system was suffering from unplanned downtime. In drug manufacturing, a conveyor failure isn't just a delay; it can ruin entire batches of temperature-sensitive medication, costing thousands of dollars. The existing strategy was "Preventative Maintenance" (fixing it every 3 months regardless of condition), which was wasteful and still didn't prevent mid-cycle breakdowns. The challenge was to move to Predictive Maintenance: identifying a failure before it happened by listening to the machine's "vibration signatures."</p>
                     
                     <h5>The Solution</h5>
                     <p>I built a Vibration Analysis & Failure Prediction Model. Using data from accelerometers and temperature sensors mounted on the conveyor motors, I developed a model that could distinguish between "Normal Operation" and "Pre-Failure Stress." I used Principal Component Analysis (PCA) to reduce the noise from the industrial floor and an SVM Classifier to categorize the machine's state. The system provides a "Remaining Useful Life" (RUL) estimate, allowing engineers to schedule maintenance during planned downtimes rather than reacting to an emergency.</p>
@@ -1204,7 +1277,7 @@ FEATURES = ['Temperature_C', 'Vibration_RMS', 'Pressure_PSI', 'Runtime_Hours']
 TARGET = 'Days_Until_Maintenance'
 
 X = df[FEATURES]
-y = df[TARGET
+y = df[TARGET]
 
 # Split data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(
@@ -1845,21 +1918,25 @@ class SandsOfTime(models.Model):
                     <pre><h6>(main.yml)</h6>
                         <code class="language-yml">
         
-name: Scheduled Intelligence Gathering
+# Updated 20260802
+
+name: ForraCorp Live Pipeline
 
 on:
   schedule:
-    - cron: '0 0,3,6,9,12,15,18,21 * * *'
-  workflow_dispatch: 
-
-permissions:
-  contents: write  # Allows the bot to push JSON changes to your repo
+    - cron: '0 0,3,6,9,12,15,18,21 * * *' # Runs automatically at midnight
+  workflow_dispatch:  # Allows manual triggers via the Actions tab
 
 jobs:
-  scrape:
+  build:
     runs-on: ubuntu-latest
+
+    # Grant write permissions to push `last_run.json` updates back to the repo
+    permissions:
+      contents: write
+
     steps:
-      - name: Checkout code
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -1867,23 +1944,24 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Install Dependencies
+      - name: Install Python Dependencies & Playwright Browsers
         run: |
-          pip install playwright requests
-          playwright install chromium
+          python -m pip install --upgrade pip
+          pip install requests playwright
+          python -m playwright install --with-deps chromium
 
-      - name: Run Crawler
+      - name: Execute ForraCorp Crawler (Intelligence Engine)
         env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }} # Map secret to Env var
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python crawler_script.py
 
-      - name: Commit and Push Results
+      - name: Sync Data to Repository
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name 'Ubi-Fredrick-Bot'
+          git config --global user.email 'forracorp1@gmail.com'
           git add last_run.json
-          git commit -m "Automated Intel Update: $(date)" || exit 0
-          git push
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Live Update: $(date)" && git push)
+
                         
                         </code>
                         <div class="navigation-group">
@@ -2066,6 +2144,7 @@ if __name__ == "__main__":
 
 /*----- Sentinel Dashboard Theme For The Web Crawler Display -------*/
 
+
 .devOps{
     max-height: 740px;
     padding: 25px;
@@ -2076,10 +2155,10 @@ if __name__ == "__main__":
     font-family:  'Courier New', monospace;
     font-size: 16px;
     overflow-x: scroll;
-    background: radial-gradient(circle at 20% 80%, rgba(8, 8, 8,, 0.74) 20%, transparent 80%),
-                radial-gradient(circle at 40% 60%, rgba(57, 19, 19, 1.75) 20%, transparent 80%),
-                radial-gradient(circle at 60% 40%, rgba(25, 25, 77, 1.74) 20%, transparent 80%),
-                radial-gradient(circle at 80% 20%, rgba(0, 77, 77, 0.75) 20%, transparent 80%);
+    background-color: var(--background-main);
+    background-image: 
+        radial-gradient(circle at 20% 30%, rgba(112, 0, 255, 0.15) 0%, transparent 40%),
+        radial-gradient(circle at 80% 70%, rgba(0, 242, 255, 0.1) 0%, transparent 40%);
 } 
 .devOps h4{
     margin-top: 0;  
@@ -2105,6 +2184,8 @@ if __name__ == "__main__":
     margin: 20px 0 10px 0;
     color: var(--primary-cyan);
     font-size: 1.0em;
+    font-family: 'Courier New', monospace;
+
 }
 
 /* ForraCorp Logo Active Pulse Effect */
@@ -2123,25 +2204,21 @@ if __name__ == "__main__":
 
 .sitrep span{
     font-size: 1.0rem;
-    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-family: 'Courier New', monospace;
     color: var(--code-green);
     text-transform: uppercase;
 }
 
-#update-time {
+#update-time, #active-system-time, #job-count {
     font-size: 0.95rem;
     color: var(--text-white);
     margin-bottom: 25px;
     font-family: 'Courier New', monospace;
 }
-#job-count {
-    font-size: 0.95rem;
-    color: var(--text-white);
-    margin-bottom: 25px;
-    font-family: 'Courier New', monospace;
-}
+
 .crawler{
-    padding: 0 25px 0 25px; 
+    padding: 10px 25px 10px 25px; 
     border-radius: 8px; 
     border-left: 5px solid var(--code-green);
     background: rgba(255, 255, 255, 0.05);
@@ -2177,10 +2254,7 @@ if __name__ == "__main__":
     transform: scale(1.03);
     background: var(--background-dull);
 }
-.job-card strong {
-    color: var(--text-white);
-    font-size: 1.1rem;
-}
+
 .job-card p {
     font-size: 0.99rem;
     color: var(--text-norm);
@@ -2221,16 +2295,23 @@ if __name__ == "__main__":
 }
 
 .secure-link {
-    text-decoration: none;
-    font-size: 0.85em;
-    font-weight: bold;
+    text-decoration: none !important;
+    font-style: normal !important;
+    font-size: 0.85em !important;
+    font-weight: bold !important;
+    cursor: progress !important;
+    color: var(--code-green) !important;
+    font-family: 'Courier New', monospace !important;
 }
 .secure-link:hover { 
-    text-decoration: none; 
-    background-color: var(--background-main);    
-    color: var(--primary-color);
-    cursor: progress;
-}
+    text-decoration: none !important;
+    font-style: normal !important;
+    font-size: 0.85em !important;
+    font-weight: bold !important;
+    cursor: progress !important;
+    color: var(--code-green) !important;
+    font-family: 'Courier New', monospace !important;
+ }
 
 #activity-log {
     list-style: none;
@@ -2242,7 +2323,9 @@ if __name__ == "__main__":
     max-height: 150px;
     overflow: scroll;
     font-family: 'Courier New', monospace;
+    margin-left: -10px;
 }
+
 
 
 
@@ -2467,11 +2550,12 @@ from pathlib import  Path
 
 html = Template(Path('meet.html').read_text())
 email = EmailMessage()
-email['from'] =  'Evelyn Ethan'
-email['to'] =  'evelyn2025@gmail.com'
+email['from'] =  'Evelyn Ethan'            # "Evelyn Ethan" is a placeholder 
+email['to'] =  'evelyn2026@gmail.com'      # "evelyn2026@gmail.com" is a placeholder 
 email['subject'] =  'Hi! Janice. This is your big sister Evelyn. Just so you know, I have loved you.'
 
-email.set_content(html.substitute({'Surname': 'Forra','Janice': 'Ethan','Phone': '0808 223 3492','Country': 'Neveland','Email': 'jany@forra.com','Company': 'ForraCorp.', }), 'html')
+email.set_content(html.substitute({'Surname': 'Forra','Janice': 'Ethan','Phone': '0808 XXX XXXX','Country': 'Neveland','Email': 'jany@forra.com','Company': 'ForraCorp.', }), 'html')                  
+                                           # "Forra, Janice, Ethan, 0808 XXX XXXX, Neveland, jany@forra.com, ForraCorp" are all placeholders.
 
 with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
     smtp.ehlo()
@@ -2730,7 +2814,7 @@ python projects/Clock.py
                         <h4><i>Version 1.0</i> | Developed by ForraCorp.</h4><hr>
 
                         <p>The Digital Sentinel is more than just a timekeeper; it is a precision-engineered desktop companion designed for the modern workspace. Featuring the signature X-Theme aesthetic—Gold accents on a deep Onyx backdrop—it combines high-performance Python logic with a sleek, minimalist interface.</p>
-                        <p>The code was first writen on july 2023, bet remaind as a code that runs with the Terminal promts/ command lines. Then, on January 2026, a transformation came. It was not just an upgrade, I built it into a desktop stand alone application for Windows OS and MacOS.</p>
+                        <p>The code was first written on july 2023, but remained as a code that runs with the Terminal promts/ command lines. Then, on January 21, 2026, a transformation came. It was not just an upgrade, I built it into a desktop stand alone application for Windows OS and MacOS, also the web-base PWA integrated in this page.</p>
 
                         <h5>Core Features</h5>
                          <ol>
@@ -2992,7 +3076,7 @@ python projects/Clock.py
             </div>
         </section>
 
-    <!----------- SECTION PROJECTS / CATEGORY / TROVE 0010 --------------->
+    <!----------- SECTION PROJECTS / CATEGORY / TROVE 010 --------------->
 
         <section id="trove2b" class="page-section">
             
@@ -3021,13 +3105,13 @@ python projects/Clock.py
                     <h3>Automated Robotic Systems: Human Interactive Machine</h3>
                     <div class="introH"><img src="../static/images/robot.png" alt="Robot"></div>
 
-                    <h4>Human Interactive Robot with Natural Language Processing (2008-2009)</h4>
+                    <h4>Human Interactive Robot with Speech Feedback (2008-2009)</h4>
                   
                     <h5>Skills / Tools Leveraged</h5>
                     <p>This groundbreaking project significantly expanded my expertise into the realm of human-robot interaction, aesthetic design, and large-scale fabrication. While Mr. Uche and Mr. Vincent spearheaded the AI and NLP, my contribution focused on the physical manifestation of intelligence. I developed skills in selecting and manipulating various materials for durability and appearance, ensuring seamless integration of internal components with the external shell. This involved careful consideration of access panels, thermal management, and robust mounting solutions for all electronics.</p>
 
                     <h5>The Challenge / Need / Problem</h5>
-                    <p>The primary challenge was to create a robot that could converse naturally and intuitively with humans, breaking down the barrier between machine and user. While the core AI components (Google Text-to-Speech, LLM, AI, Natural Language) handled the intelligence, the physical embodiment needed to be engaging, durable, and user-friendly. There was a critical need to enclose the complex internal electronics within a protective and aesthetically pleasing covering that also allowed for proper heat dissipation and easy access for maintenance, all while making the robot approachable and less intimidating.</p>
+                    <p>The primary challenge was to create a robot that could converse naturally and intuitively with humans, breaking down the barrier between machine and user. With the use of rule-based natural language processing, keyword extraction, and early speech synthesis engines that handled the text and speach responds from the rotob, the physical embodiment needed to be engaging, durable, and user-friendly. There was a critical need to enclose the complex internal electronics within a protective and aesthetically pleasing covering that also allowed for proper heat dissipation and easy access for maintenance, all while making the robot approachable and less intimidating.</p>
                     
                     <h5>The Solution</h5>
                     <p>My direct contribution was the fabrication and overlay of the robot's external covering, which transformed a collection of circuits and motors into a recognizable, interactive entity. I designed and constructed a shell that was both protective and visually appealing, using materials that were easy to clean and offered good acoustic properties for the robot's speakers. The covering incorporated thoughtful access points for charging and maintenance, ensuring the internal sophistication was matched by external practicality. This physical interface was crucial in enabling the robot's seamless interaction, allowing it to "come alive" and respond audibly to typed or spoken queries, fostering a sense of engagement.</p>
@@ -5900,7 +5984,7 @@ python projects/Clock.py
                          <h6><li>
                             Resuscitation: </h6>If the victim is unconscious, immediately begin the ABCs (Airway, Breathing, Circulation) and perform CPR if necessary.
                         </li>
-                    </ul>To be a Tactical Driver,  
+                    </ul> 
 
                     <h5>My Contribution</h5>
                     <p>I am a good Life Saver. I learned by observing the best of the best, and coached by a Certified Pro. Mr. Yopele. At present, my contribution goes beyond just monitoring the water; I serve as a first responder. I have been trained to maintain a "calm in the storm" presence, directing others on land while performing the physical rescue in the water.</p>
@@ -5933,9 +6017,11 @@ python projects/Clock.py
                 <a href="../index.html"><img src="../static/images/logo.png" alt="Logo" class="foot-logo"></a>
             </div>
             
+            
             <div class="foot-center">
-                <p>&copy; <span id="currentYear"></span> ForraCorp || Fredrick Ubi</p>
-                <p style="margin-top: 5px; opacity: 0.7;">fofem2@gmail.com || +234 702 597 4815</p>
+                <strong class="foot-center sectionID">THE ENTITY</strong>
+                <p>&copy; <span id="currentYear"></span> ForraCorp || Resilience... Precision... Durability...</p>
+                <p style="margin-top: 5px; opacity: 0.7;">forracorp1@gmail.com || <a href="https://forranova.github.io" class="secure-link">ForraNova</a><!---+234 702 597 4815---></p>
             </div>
 
             <div class="foot-right">
@@ -6354,6 +6440,342 @@ python projects/Clock.py
         }
     </script>
 
+    <!------------------------------------------------------->
+    <!--------------- QUICK SCAN: DATA + LOGIC --------------->
+    <!------------------------------------------------------->
+    <script>
+    (function () {
+        "use strict";
+
+        /* ---------------------------------------------------------------
+         * PILLAR METADATA
+         * Colors match the border-left accent already used per pillar
+         * in fc.css, so pillar chips stay visually consistent sitewide.
+         * ------------------------------------------------------------- */
+        const PILLARS = {
+            pillar01: { label: "Pillar 01 — AI, Data & Software",        color: "#00f2ff" },
+            pillar02: { label: "Pillar 02 — Robotics & Electronics",     color: "#6d5dfc" },
+            pillar03: { label: "Pillar 03 — Power Engineering",          color: "#ff4d4d" },
+            pillar04: { label: "Pillar 04 — Systems, Security & AV",     color: "#00ff80" },
+            pillar05: { label: "Pillar 05 — Leadership & HR",            color: "#94a3b8" },
+            pillar06: { label: "Pillar 06 — Authorship & Creative",      color: "#ff9d00" }
+        };
+
+        /* ---------------------------------------------------------------
+         * PROJECT INDEX
+         * id      -> must exactly match the <section id="troveXX"> anchor
+         *            so "View Full Case Study" can call router(id) directly.
+         * year    -> best-effort from each trove's dated subtitle. A few
+         *            (undated troves) are estimated — adjust freely.
+         * tags    -> feeds both the Tech/Skill filter and search matching.
+         * teaser  -> one line, shown on every card.
+         * preview -> 2–3 lines, revealed on "Preview" expand (no page jump).
+         * ------------------------------------------------------------- */
+        const PROJECTS = [
+            { id: "trove1a", pillar: "pillar01", year: 2025, title: "ML Model: Advanced Time-Series / Financial Forecasting",
+              tags: ["Python", "Machine Learning", "LSTM", "TensorFlow", "Finance"],
+              teaser: "Stacked LSTM neural network for financial time-series forecasting.",
+              preview: "Built with TensorFlow/Keras and Scikit-Learn, using Min-Max normalization and sequence windowing to predict non-linear market trends from multivariate time-series data." },
+            { id: "trove1b", pillar: "pillar01", year: 2024, title: "ML Model: Inventory and Expiration Prediction",
+              tags: ["Python", "Machine Learning", "XGBoost", "SQL", "Retail Analytics"],
+              teaser: "Predictive inventory system that flags at-risk perishable stock before it expires.",
+              preview: "Combines a Random Forest demand model with a Logistic Regression expiry classifier. Reported ~40% reduction in food waste and a 22% lift in inventory turnover in live deployment." },
+            { id: "trove1c", pillar: "pillar01", year: 2023, title: "ML Model: Predictive Maintenance (PdM)",
+              tags: ["Python", "Machine Learning", "SVM", "IoT", "Industrial"],
+              teaser: "Vibration-analysis model predicting conveyor-motor failure days in advance.",
+              preview: "PCA-filtered accelerometer/temperature data feeds an SVM classifier estimating Remaining Useful Life. Reported ~92% accuracy predicting failures 48+ hours ahead." },
+            { id: "trove1d", pillar: "pillar01", year: 2024, title: "Data Manipulations and Visualizations",
+              tags: ["Python", "Pandas", "NumPy", "Data Visualization"],
+              teaser: "A standardized cleaning, scaling, and visualization pipeline ahead of model training.",
+              preview: "Covers EDA, outlier handling, correlation heatmaps, and PCA-based dimensionality reduction — the shared data-prep foundation behind this pillar's ML projects." },
+            { id: "trove1e", pillar: "pillar01", year: 2025, title: "Fullstack (Django) and Responsive Web Development",
+              tags: ["Python", "Django", "Web Development", "PostgreSQL"],
+              teaser: "Django MVT web platform powering this portfolio's publishing workflow.",
+              preview: "Walks through the Django request lifecycle end-to-end (URLs → Views → Models → Templates), with a planned migration to a headless Django API + React/Next.js frontend." },
+            { id: "trove1f", pillar: "pillar01", year: 2026, title: "Advanced Python Engineering: Automated Web Intelligence (Playwright & GitHub Actions)",
+              tags: ["Python", "Playwright", "DevOps", "CI/CD", "Automation"],
+              teaser: "Web crawler that self-update a job-market intelligence pipeline scheduled via GitHub Actions.",
+              preview: "Headless browser automation scrapes and categorizes remote opportunities on a schedule, writing results to a JSON file synced live to this site's dashboard." },
+            { id: "trove1g", pillar: "pillar01", year: 2022, title: "Python Coding (Email Automation)",
+              tags: ["Python", "SMTP", "Automation"],
+              teaser: "A modular SMTP script for sending branded, personalized email at scale.",
+              preview: "Built on smtplib and email.mime with SSL/TLS encryption, HTML templating, and retry logic — reported ~95% faster turnaround than manual sending." },
+            { id: "trove1h", pillar: "pillar01", year: 2026, title: "Stand Alone Apps Development (Tkinter): Digital Interface (Clock)",
+              tags: ["Python", "CustomTkinter", "Desktop App"],
+              teaser: "The X-Theme Sentinel — a chrono-aware desktop clock that auto-switches themes.",
+              preview: "Built with CustomTkinter; evaluates system time to auto-toggle Dark/Light themes, with manual override and packaged Windows/macOS executables." },
+
+            { id: "trove2a", pillar: "pillar02", year: 2008, title: "Automated Robotic Systems: Robotic Arm",
+              tags: ["Robotics", "Arduino", "Mechatronics"],
+              teaser: "A multi-axis pick-and-place robotic arm built for a robotics lab exhibition.",
+              preview: "Stepper-motor driven with A4988 drivers and a servo gripper — demonstrated industrial automation principles to visiting students and industry partners." },
+            { id: "trove2b", pillar: "pillar02", year: 2009, title: "Automated Robotic Systems: Human Interactive Machine",
+              tags: ["Robotics", "Fabrication", "NLP"],
+              teaser: "Physical fabrication of a conversational, human-interactive robot's shell.",
+              preview: "Covered material selection, chassis fabrication, and acoustically-optimized enclosure design while teammates handled the AI/NLP core." },
+            { id: "trove2c", pillar: "pillar02", year: 2009, title: "Enhanced Control Systems Using Proximity Sensors",
+              tags: ["Electronics", "Arduino", "Sensors"],
+              teaser: "Custom non-contact detection systems for client automation projects.",
+              preview: "Ultrasonic, IR, and inductive proximity sensors feed a microcontroller that triggers relays, alarms, or motors — contactless, low-maintenance control." },
+            { id: "trove2d", pillar: "pillar02", year: 2010, title: "Dual-Tune Multi-Frequency (DTMF) Signaling System",
+              tags: ["Electronics", "Telecom", "Signal Processing"],
+              teaser: "DTMF-based system for remote device control over standard phone lines.",
+              preview: "Decodes DTMF tones to trigger switching logic, enabling basic remote/mobile equipment control without a dedicated data network." },
+            { id: "trove2e", pillar: "pillar02", year: 2012, title: "Mechatronics: Robotic Minitricycle",
+              tags: ["Robotics", "Mechatronics"],
+              teaser: "A miniature robotic tricycle platform built for institutional exhibition.",
+              preview: "Combines motor control and steering logic in a compact mechatronic build demonstrating mobility automation concepts." },
+            { id: "trove2f", pillar: "pillar02", year: 2009, title: "Printed Circuit Board (PCB) - Etching",
+              tags: ["Electronics", "PCB Fabrication"],
+              teaser: "Custom PCB fabrication using chemical and toner-transfer etching.",
+              preview: "Covers the full etching workflow — toner-transfer resist to chemical bath — for producing custom boards used across the robotics/electronics projects." },
+
+            { id: "trove3a", pillar: "pillar03", year: 2005, title: "Custom Inverter Systems Design (Square & Pure Sine Wave)",
+              tags: ["Power Engineering", "Inverter Design", "Electronics"],
+              teaser: "Custom-programmable pure sine wave and square wave inverter systems.",
+              preview: "Built around 4013 IC / 555 Timer logic, converting DC to reliable AC power for domestic and light-industrial backup applications." },
+            { id: "trove3b", pillar: "pillar03", year: 2007, title: "Automatic Voltage Regulator (AVR)",
+              tags: ["Power Engineering", "Voltage Regulation"],
+              teaser: "An ultra-wide range, Op-Amp-based AVR for unstable mains supply.",
+              preview: "Comparator logic stabilizes output voltage across a wide input range, protecting sensitive equipment from variable grid conditions." },
+            { id: "trove3c", pillar: "pillar03", year: 2010, title: "Automatic Power Changeover System",
+              tags: ["Power Engineering", "Automation"],
+              teaser: "A triple-source intelligent automatic changeover and generator-starter system.",
+              preview: "Automatically switches between mains, generator, and backup sources, with auto-start generator logic to minimize downtime during outages." },
+            { id: "trove3d", pillar: "pillar03", year: 2004, title: "Power Transformers (Custom Winding)",
+              tags: ["Power Engineering", "Electrical"],
+              teaser: "Custom-wound toroidal and E-I power transformers.",
+              preview: "Hand-wound to precise turn ratios for specific voltage/current needs — the core skill underpinning the inverter and AVR builds in this pillar." },
+            { id: "trove3e", pillar: "pillar03", year: 2007, title: "Electrical Installations & Maintenance",
+              tags: ["Power Engineering", "Electrical Installation"],
+              teaser: "Industrial and residential electrical building installations and upkeep.",
+              preview: "Covers conduit and surface wiring, 3-phase distribution, and ongoing maintenance contracts across commercial and domestic sites." },
+            { id: "trove3f", pillar: "pillar03", year: 2010, title: "Technical Drawings & Schematics",
+              tags: ["Power Engineering", "CAD", "Schematics"],
+              teaser: "Technical drawings and architectural wiring schematics.",
+              preview: "Precise schematic documentation used to plan, communicate, and execute the electrical installation work in this pillar." },
+
+            { id: "trove4a", pillar: "pillar04", year: 2020, title: "CCTV System Installations and Operations",
+              tags: ["Security", "CCTV", "Surveillance"],
+              teaser: "Commercial and industrial CCTV surveillance infrastructure.",
+              preview: "IP, analog, and NVR-based surveillance systems deployed and maintained across multiple commercial and industrial sites." },
+            { id: "trove4b", pillar: "pillar04", year: 2009, title: "Anti-Theft Trigger Alarm System",
+              tags: ["Security", "Electronics"],
+              teaser: "A multi-zone anti-theft trigger and siren alarm system.",
+              preview: "Thyristor-based trigger circuitry provides a low-cost, reliable anti-theft deterrent for domestic and small commercial properties." },
+            { id: "trove4c", pillar: "pillar04", year: 2016, title: "Automated Door Opening System",
+              tags: ["Security", "RFID", "Automation"],
+              teaser: "RFID-based automated vehicle identification and gate control.",
+              preview: "Reads RFID tags to automatically identify and grant access to vehicles, reducing manual gate-checking overhead." },
+            { id: "trove4d", pillar: "pillar04", year: 2009, title: "Dark / Light Detectors Switching Systems",
+              tags: ["Electronics", "Automation", "Solar"],
+              teaser: "Automated solar street-light switching using dark/light detection.",
+              preview: "Photo-sensitive switching circuitry automatically toggles street lighting based on ambient light, with no manual intervention." },
+            { id: "trove4e", pillar: "pillar04", year: 2018, title: "Audio-Video (AV) System Connectivity",
+              tags: ["Audio-Visual", "Systems"],
+              teaser: "Professional AV infrastructure for homes and large-scale auditoriums.",
+              preview: "Covers satellite/cable connectivity, SDI/XLR/Dante-ready wiring, and X32 mixing for events and installations." },
+            { id: "trove4f", pillar: "pillar04", year: 2019, title: "Systems Support (Remote Admin/AnyDesk)",
+              tags: ["IT Support", "Remote Admin"],
+              teaser: "Remote technical assistance and virtual systems support.",
+              preview: "Diagnostic and administrative support across Windows/Linux/macOS environments without needing an on-site visit." },
+            { id: "trove4g", pillar: "pillar04", year: 2018, title: "Computer Hardware Diagnostics and Maintenance",
+              tags: ["IT Support", "Hardware"],
+              teaser: "End-to-end PC hardware lifecycle management.",
+              preview: "Hardware troubleshooting, OS installation, and BIOS/UEFI-level repair across a managed fleet of enterprise workstations." },
+
+            { id: "trove5a", pillar: "pillar05", year: 2019, title: "Project and Management",
+              tags: ["Leadership", "Project Management"],
+              teaser: "Strategic operations and multi-disciplinary project supervision.",
+              preview: "Coordinates resource allocation, scheduling, and cross-team execution across commercial and volunteer construction projects." },
+            { id: "trove5b", pillar: "pillar05", year: 2019, title: "Human Resources Manager (HRM) Duties and Responsibilities",
+              tags: ["HR", "Leadership"],
+              teaser: "HR management duties spanning recruitment through institutional leadership.",
+              preview: "Covers hiring, onboarding, training, and performance management across ICT and retail operational environments." },
+            { id: "trove5c", pillar: "pillar05", year: 2020, title: "Supervision Duties",
+              tags: ["Leadership", "Management"],
+              teaser: "Operational supervision under a \"Knowledge Sharing\" leadership model.",
+              preview: "Emphasizes technical mentorship and cross-training to build team capability, rather than top-down oversight alone." },
+
+            { id: "trove6a", pillar: "pillar06", year: 2015, title: "Novelist, Writing, Editor and Authorship",
+              tags: ["Writing", "Authorship"],
+              teaser: "Author of a multi-genre novel series spanning Sci-Fi, Forensics, and Epic narrative.",
+              preview: "Includes forensic research-based writing, beat-sheet plotting, and a \"360° Narrative Engagement Ecosystem\" pairing each book with an original theme song." },
+            { id: "trove6b", pillar: "pillar06", year: 2016, title: "Song Writing and Production",
+              tags: ["Music", "Audio Production"],
+              teaser: "Original songwriting and production for the novel series' companion soundtrack.",
+              preview: "Full production lifecycle in Logic Pro X — composition, MIDI sequencing, and vocal recording — for roughly 20 original tracks." },
+            { id: "trove6c", pillar: "pillar06", year: 2002, title: "\"The Graillandic\" Cipher Text Scripting",
+              tags: ["Cryptography", "Linguistics"],
+              teaser: "A proprietary visual orthographic system based on a modified Level 1 Braille structure.",
+              preview: "A custom 26-character mapping system developed over two decades, with a roadmap toward a TrueType font and spoken phonology for cinematic use." },
+            { id: "trove6d", pillar: "pillar06", year: 2010, title: "Multilingual and Inclusive Communication",
+              tags: ["Linguistics", "Inclusion", "Sign Language"],
+              teaser: "Cross-cultural communication fluency spanning English, Pidgin, ASL/BSL/NSL, and Braille.",
+              preview: "Includes work as a Sign Language translator/interpreter and developer of the \"Wind Talker\" curriculum for inclusive communication training." },
+            { id: "trove6e", pillar: "pillar06", year: 2021, title: "Carpentry Works (Ultra-Modern Furniture)",
+              tags: ["Carpentry", "Furniture Design"],
+              teaser: "Ultra-modern modular furniture design and construction.",
+              preview: "Combines HDF/MDF modular carpentry techniques with a contemporary aesthetic for custom furniture builds, including floating TV stands." },
+            { id: "trove6f", pillar: "pillar06", year: 2015, title: "Defensive Driving (Tactical & Evasive)",
+              tags: ["Tactical Skills", "Safety"],
+              teaser: "Advanced tactical, defensive, and evasive vehicle operation training.",
+              preview: "Covers defensive, evasive, and aggressive driving techniques for high-risk or security-sensitive transport scenarios." },
+            { id: "trove6g", pillar: "pillar06", year: 2006, title: "Professional Swimming / Life Saver",
+              tags: ["Safety", "Life Saving"],
+              teaser: "Professional-level swimming and aquatic life-saving/rescue certification.",
+              preview: "Includes rescue swimming, First Aid/CPR, and physical safety oversight capability." }
+        ];
+        /* NOTE: Years for undated troves above are best-effort estimates —
+           adjust the `year` fields to your records whenever convenient.
+           Nothing else in the filter/sort logic needs to change. */
+
+        let state = { search: "", pillar: "all", tech: "all", year: "all", sort: "pillar" };
+
+        const grid   = document.getElementById("qsGrid");
+        const countEl = document.getElementById("qsCount");
+        const emptyEl = document.getElementById("qsEmpty");
+        const pillarSelect = document.getElementById("qsPillar");
+        const techSelect   = document.getElementById("qsTech");
+        const yearSelect   = document.getElementById("qsYear");
+        const sortSelect   = document.getElementById("qsSort");
+        const searchInput  = document.getElementById("qsSearch");
+
+        function populateFilterOptions() {
+            // Pillars (fixed, ordered set)
+            Object.keys(PILLARS).forEach(pid => {
+                const opt = document.createElement("option");
+                opt.value = pid;
+                opt.textContent = PILLARS[pid].label;
+                pillarSelect.appendChild(opt);
+            });
+
+            // Tech/skill tags — deduped, alphabetical
+            const tagSet = new Set();
+            PROJECTS.forEach(p => p.tags.forEach(t => tagSet.add(t)));
+            [...tagSet].sort((a, b) => a.localeCompare(b)).forEach(tag => {
+                const opt = document.createElement("option");
+                opt.value = tag;
+                opt.textContent = tag;
+                techSelect.appendChild(opt);
+            });
+
+            // Years — deduped, newest first
+            const yearSet = new Set(PROJECTS.map(p => p.year));
+            [...yearSet].sort((a, b) => b - a).forEach(yr => {
+                const opt = document.createElement("option");
+                opt.value = yr;
+                opt.textContent = yr;
+                yearSelect.appendChild(opt);
+            });
+        }
+
+        function getFiltered() {
+            const q = state.search.trim().toLowerCase();
+            return PROJECTS.filter(p => {
+                if (state.pillar !== "all" && p.pillar !== state.pillar) return false;
+                if (state.tech !== "all" && !p.tags.includes(state.tech)) return false;
+                if (state.year !== "all" && String(p.year) !== state.year) return false;
+                if (q) {
+                    const haystack = (p.title + " " + p.tags.join(" ") + " " + p.teaser).toLowerCase();
+                    if (!haystack.includes(q)) return false;
+                }
+                return true;
+            });
+        }
+
+        function getSorted(list) {
+            const sorted = [...list];
+            switch (state.sort) {
+                case "newest": sorted.sort((a, b) => b.year - a.year); break;
+                case "oldest": sorted.sort((a, b) => a.year - b.year); break;
+                case "az":     sorted.sort((a, b) => a.title.localeCompare(b.title)); break;
+                default:       sorted.sort((a, b) => a.pillar.localeCompare(b.pillar) || a.id.localeCompare(b.id));
+            }
+            return sorted;
+        }
+
+        function cardHTML(p) {
+            const pillarInfo = PILLARS[p.pillar];
+            const tagsHTML = p.tags.map(t => `<span class="qs-tag">${t}</span>`).join("");
+            return `
+                <article class="qs-card" style="--pillar-color:${pillarInfo.color}" data-id="${p.id}">
+                    <div class="qs-card-top">
+                        <span class="qs-pillar-chip">${pillarInfo.label.replace(/^Pillar 0\d — /, "")}</span>
+                        <span class="qs-year">${p.year}</span>
+                    </div>
+                    <h5 class="qs-title">${p.title}</h5>
+                    <p class="qs-teaser">${p.teaser}</p>
+                    <div class="qs-tags">${tagsHTML}</div>
+                    <div class="qs-actions">
+                        <button type="button" class="qs-expand-btn" aria-expanded="false">
+                            Preview <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                        <button type="button" class="qs-view-btn" data-route="${p.id}">
+                            Explore Project<i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="qs-preview" hidden>${p.preview}</div>
+                </article>`;
+        }
+
+        function render() {
+            const filtered = getSorted(getFiltered());
+
+            countEl.textContent = filtered.length
+                ? `Showing ${filtered.length} of ${PROJECTS.length} projects`
+                : "";
+            emptyEl.hidden = filtered.length !== 0;
+            grid.hidden = filtered.length === 0;
+
+            grid.innerHTML = filtered.map(cardHTML).join("");
+        }
+
+        function resetFilters() {
+            state = { search: "", pillar: "all", tech: "all", year: "all", sort: "pillar" };
+            searchInput.value = "";
+            pillarSelect.value = "all";
+            techSelect.value = "all";
+            yearSelect.value = "all";
+            sortSelect.value = "pillar";
+            render();
+        }
+
+        // --- Event wiring ---
+        searchInput.addEventListener("input", e => { state.search = e.target.value; render(); });
+        pillarSelect.addEventListener("change", e => { state.pillar = e.target.value; render(); });
+        techSelect.addEventListener("change", e => { state.tech = e.target.value; render(); });
+        yearSelect.addEventListener("change", e => { state.year = e.target.value; render(); });
+        sortSelect.addEventListener("change", e => { state.sort = e.target.value; render(); });
+        document.getElementById("qsReset").addEventListener("click", resetFilters);
+        document.getElementById("qsEmptyReset").addEventListener("click", resetFilters);
+
+        // Event delegation: one listener handles every card (expand + view),
+        // even after re-render replaces the grid's innerHTML.
+        grid.addEventListener("click", e => {
+            const expandBtn = e.target.closest(".qs-expand-btn");
+            if (expandBtn) {
+                const card = expandBtn.closest(".qs-card");
+                const preview = card.querySelector(".qs-preview");
+                const isOpen = !preview.hidden;
+                preview.hidden = isOpen;
+                expandBtn.setAttribute("aria-expanded", String(!isOpen));
+                card.classList.toggle("qs-card-open", !isOpen);
+                return;
+            }
+            const viewBtn = e.target.closest(".qs-view-btn");
+            if (viewBtn) {
+                router(viewBtn.dataset.route); // reuses the site's existing SPA router
+            }
+        });
+
+        populateFilterOptions();
+        render();
+    })();
+    </script>
+    <!------------------------------------------------------->
+    <!------------- END QUICK SCAN: DATA + LOGIC ------------->
+    <!------------------------------------------------------->
 
     <script>// Set dynamic year in footer
         document.getElementById('currentYear').textContent = new Date().getFullYear();
