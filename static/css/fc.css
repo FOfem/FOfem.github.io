@@ -175,6 +175,12 @@ header {
     -webkit-text-fill-color: transparent;
 }
 
+.tagline {
+    color: var(--text-white);
+    text-align: center;
+    font-size: 20px;
+}
+
 
 /*---- LOGO ANIMATION ---*/
 
@@ -1816,3 +1822,255 @@ button:active {
 
 input:checked + .slider { background-color: var(--accent-blue); }
 input:checked + .slider:before { transform: translateX(24px); }
+/*==================================================================*/
+/*                    QUICK SCAN: PROJECT INDEX                     */
+/*   Filterable / sortable / expandable card grid — added to fix    */
+/*   "no quick-scan mode before the full narrative" + "no filter-   */
+/*   able project index" review findings.                           */
+/*==================================================================*/
+
+.quick-scan {
+    margin: 50px 1% 20px 1%;
+    padding: 30px 25px;
+    border-radius: 20px;
+    border: 1px solid var(--glass-border);
+    background: var(--glass);
+    backdrop-filter: blur(5px);
+}
+
+.qs-header h4 {
+    font-family: var(--font-family);
+    color: var(--primary-cyan);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+}
+.qs-header h4 i { margin-right: 8px; color: var(--code-green); }
+
+.qs-header p {
+    color: var(--text-norm);
+    font-size: 0.98rem;
+    max-width: 720px;
+    margin-bottom: 22px;
+}
+
+/* --- Controls bar --- */
+.qs-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.qs-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.qs-field label {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--text-dip);
+}
+
+.qs-field-search { flex: 1 1 240px; }
+.qs-field-search label { display: flex; align-items: center; }
+
+.qs-controls input[type="text"],
+.qs-controls select {
+    background: var(--background-dull);
+    border: 1px solid var(--glass-border);
+    color: var(--text-white);
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 0.92rem;
+    min-width: 150px;
+    outline: none;
+    transition: var(--transition);
+}
+
+.qs-controls input[type="text"] { min-width: 220px; width: 100%; }
+
+.qs-controls input[type="text"]:focus,
+.qs-controls select:focus {
+    border-color: var(--primary-cyan);
+    box-shadow: 0 0 0 3px rgba(0, 242, 255, 0.15);
+}
+
+.qs-reset {
+    background: transparent;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    padding: 10px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.88rem;
+    transition: var(--transition);
+    white-space: nowrap;
+}
+.qs-reset:hover {
+    background: var(--secondary-color);
+    color: var(--text-white);
+}
+
+.qs-count {
+    font-size: 0.85rem;
+    color: var(--text-dip);
+    margin: 6px 0 20px 2px;
+    font-family: 'Courier New', monospace;
+}
+
+.qs-empty {
+    text-align: center;
+    padding: 40px 10px;
+    color: var(--text-norm);
+    font-size: 1rem;
+}
+.qs-inline-reset {
+    background: none;
+    border: none;
+    color: var(--primary-cyan);
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: inherit;
+}
+
+/* --- Card grid --- */
+.qs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.qs-card {
+    background: var(--opaque);
+    border: 1px solid var(--glass-border);
+    border-left: 4px solid var(--pillar-color, var(--primary-cyan));
+    border-radius: 14px;
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: var(--transition);
+}
+
+.qs-card:hover,
+.qs-card-open {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.4);
+    border-color: var(--pillar-color, var(--primary-cyan));
+}
+
+.qs-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.qs-pillar-chip {
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--pillar-color, var(--primary-cyan));
+    border: 1px solid var(--pillar-color, var(--primary-cyan));
+    border-radius: 20px;
+    padding: 3px 10px;
+}
+
+.qs-year {
+    font-family: 'Courier New', monospace;
+    color: var(--text-dip);
+    font-size: 0.8rem;
+}
+
+.qs-title {
+    font-size: 1.02rem;
+    color: var(--text-white);
+    line-height: 1.35;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.qs-teaser {
+    font-size: 0.88rem;
+    color: var(--text-norm);
+    line-height: 1.45;
+}
+
+.qs-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 2px;
+}
+
+.qs-tag {
+    font-size: 0.72rem;
+    background: rgba(255,255,255,0.06);
+    color: var(--text-norm);
+    padding: 3px 9px;
+    border-radius: 20px;
+}
+
+.qs-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto;
+    padding-top: 10px;
+}
+
+.qs-expand-btn,
+.qs-view-btn {
+    background: transparent;
+    border: 1px solid var(--glass-border);
+    color: var(--text-norm);
+    font-size: 0.8rem;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: var(--transition);
+    white-space: nowrap;
+}
+
+.qs-expand-btn:hover {
+    border-color: var(--code-green);
+    color: var(--code-green);
+}
+
+.qs-view-btn {
+    border-color: var(--pillar-color, var(--primary-cyan));
+    color: var(--pillar-color, var(--primary-cyan));
+    flex: 1;
+    text-align: center;
+}
+.qs-view-btn:hover {
+    background: var(--pillar-color, var(--primary-cyan));
+    color: var(--background-main);
+}
+
+.qs-expand-btn[aria-expanded="true"] i { transform: rotate(180deg); }
+.qs-expand-btn i { transition: var(--transition); }
+
+.qs-preview {
+    font-size: 0.85rem;
+    color: var(--text-norm);
+    line-height: 1.5;
+    border-top: 1px dashed var(--glass-border);
+    padding-top: 10px;
+    margin-top: 2px;
+}
+
+/* --- Mobile --- */
+@media (max-width: 600px) {
+    .qs-controls { flex-direction: column; align-items: stretch; }
+    .qs-field, .qs-controls select, .qs-controls input[type="text"] { width: 100%; }
+    .qs-reset { align-self: flex-start; }
+    .qs-grid { grid-template-columns: 1fr; max-height: 400px; overflow: scroll;}
+    .qs-field-search {margin-bottom: -180px;}
+}
