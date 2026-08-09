@@ -1,12 +1,12 @@
 {
-    "last_update": "August 09, 2026 | 04:17 AM",
+    "last_update": "August 09, 2026 | 06:53 AM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[04:17:12] SUCCESS: Machine Learning (3 found)",
-        "[04:17:15] SUCCESS: Front-End / React (3 found)",
-        "[04:17:17] SUCCESS: Writing / Creative (0 found)",
-        "[04:17:20] SUCCESS: Virtual Assistant (0 found)"
+        "[06:53:25] SUCCESS: Machine Learning (3 found)",
+        "[06:53:28] SUCCESS: Front-End / React (3 found)",
+        "[06:53:30] SUCCESS: Writing / Creative (0 found)",
+        "[06:53:33] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -21,8 +21,8 @@
                     "link": "https://remoteok.com/remote-jobs/remote-inside-sales-team-leader-the-careside-1133121"
                 },
                 {
-                    "position": "St George\u2019s Cares",
-                    "link": "https://remoteok.com/remote-jobs/remote-st-georges-cares-quintessence-films-limited-1136334"
+                    "position": "Recognizing the Friction",
+                    "link": "https://remoteok.com/remote-jobs/remote-recognizing-the-friction-tclara-1136342"
                 }
             ]
         },
