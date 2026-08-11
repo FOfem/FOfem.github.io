@@ -1,12 +1,12 @@
 {
-    "last_update": "August 11, 2026 | 07:04 AM",
+    "last_update": "August 11, 2026 | 09:59 AM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[07:04:02] SUCCESS: Machine Learning (3 found)",
-        "[07:04:05] SUCCESS: Front-End / React (3 found)",
-        "[07:04:07] SUCCESS: Writing / Creative (0 found)",
-        "[07:04:11] SUCCESS: Virtual Assistant (0 found)"
+        "[09:59:10] SUCCESS: Machine Learning (3 found)",
+        "[09:59:13] SUCCESS: Front-End / React (3 found)",
+        "[09:59:15] SUCCESS: Writing / Creative (0 found)",
+        "[09:59:18] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -17,12 +17,12 @@
                     "link": "https://remoteok.com/remote-jobs/remote-genai-engineer-ai-builder-ai-agent-associate-specialist-magic-compass-limited-1135735"
                 },
                 {
-                    "position": "Group leader",
-                    "link": "https://remoteok.com/remote-jobs/remote-group-leader-paytm-services-pvt-ltd-1136372"
+                    "position": "Program Management Director",
+                    "link": "https://remoteok.com/remote-jobs/remote-program-management-director-stanley-consultants-1136380"
                 },
                 {
-                    "position": "Expression of Interest",
-                    "link": "https://remoteok.com/remote-jobs/remote-expression-of-interest-immutable-1136369"
+                    "position": "Sales Development Representative Attribute\ufffd",
+                    "link": "https://remoteok.com/remote-jobs/"
                 }
             ]
         },
