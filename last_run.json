@@ -1,21 +1,47 @@
 {
-    "last_update": "August 11, 2026 | 01:01 PM",
+    "last_update": "August 11, 2026 | 04:00 PM",
     "status": "Online",
-    "total_found": 0,
+    "total_found": 6,
     "logs": [
-        "[12:59:50] SUCCESS: Machine Learning (0 found)",
-        "[13:00:43] SUCCESS: Front-End / React (0 found)",
-        "[13:01:14] SUCCESS: Writing / Creative (0 found)",
-        "[13:01:17] SUCCESS: Virtual Assistant (0 found)"
+        "[15:59:55] SUCCESS: Machine Learning (3 found)",
+        "[15:59:58] SUCCESS: Front-End / React (3 found)",
+        "[16:00:00] SUCCESS: Writing / Creative (0 found)",
+        "[16:00:03] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
             "query": "Machine Learning",
-            "jobs": []
+            "jobs": [
+                {
+                    "position": "GenAI Engineer AI Builder AI Agent Associate Specialist",
+                    "link": "https://remoteok.com/remote-jobs/remote-genai-engineer-ai-builder-ai-agent-associate-specialist-magic-compass-limited-1135735"
+                },
+                {
+                    "position": "Junior Crypto Trader",
+                    "link": "https://remoteok.com/remote-jobs/remote-junior-crypto-trader-atom-partners-1136383"
+                },
+                {
+                    "position": "Expression of Interest",
+                    "link": "https://remoteok.com/remote-jobs/remote-expression-of-interest-alloy-robotics-1136384"
+                }
+            ]
         },
         {
             "query": "Front-End / React",
-            "jobs": []
+            "jobs": [
+                {
+                    "position": "Senior React Full stack Developer",
+                    "link": "https://remoteok.com/remote-jobs/remote-senior-react-full-stack-developer-lemon-io-1136299"
+                },
+                {
+                    "position": "Procurement Specialist",
+                    "link": "https://remoteok.com/remote-jobs/remote-procurement-specialist-robert-half-1136214"
+                },
+                {
+                    "position": "Freelance Designer",
+                    "link": "https://remoteok.com/remote-jobs/remote-freelance-designer-control-shift-video-1136213"
+                }
+            ]
         },
         {
             "query": "Writing / Creative",
