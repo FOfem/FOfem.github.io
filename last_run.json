@@ -1,12 +1,12 @@
 {
-    "last_update": "August 14, 2026 | 03:50 PM",
+    "last_update": "August 14, 2026 | 06:51 PM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[15:50:01] SUCCESS: Machine Learning (3 found)",
-        "[15:50:04] SUCCESS: Front-End / React (3 found)",
-        "[15:50:06] SUCCESS: Writing / Creative (0 found)",
-        "[15:50:09] SUCCESS: Virtual Assistant (0 found)"
+        "[18:51:23] SUCCESS: Machine Learning (3 found)",
+        "[18:51:26] SUCCESS: Front-End / React (3 found)",
+        "[18:51:29] SUCCESS: Writing / Creative (0 found)",
+        "[18:51:32] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -21,8 +21,8 @@
                     "link": "https://remoteok.com/remote-jobs/remote-junior-crypto-trader-atom-partners-1136383"
                 },
                 {
-                    "position": "Engineer Officer",
-                    "link": "https://remoteok.com/remote-jobs/remote-engineer-officer-canadian-armed-forces-forces-armees-canadiennes-1136678"
+                    "position": "Brand Protection & Marketplace Compliance Analyst",
+                    "link": "https://remoteok.com/remote-jobs/remote-brand-protection-marketplace-compliance-analyst-multiplymii-1136687"
                 }
             ]
         },
