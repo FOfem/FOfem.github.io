@@ -1,12 +1,12 @@
 {
-    "last_update": "August 16, 2026 | 09:18 PM",
+    "last_update": "August 17, 2026 | 01:08 AM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[21:18:08] SUCCESS: Machine Learning (3 found)",
-        "[21:18:10] SUCCESS: Front-End / React (3 found)",
-        "[21:18:13] SUCCESS: Writing / Creative (0 found)",
-        "[21:18:16] SUCCESS: Virtual Assistant (0 found)"
+        "[01:08:23] SUCCESS: Machine Learning (3 found)",
+        "[01:08:26] SUCCESS: Front-End / React (3 found)",
+        "[01:08:28] SUCCESS: Writing / Creative (0 found)",
+        "[01:08:31] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -17,12 +17,12 @@
                     "link": "https://remoteok.com/remote-jobs/remote-genai-engineer-ai-builder-ai-agent-associate-specialist-magic-compass-limited-1135735"
                 },
                 {
-                    "position": "Junior Crypto Trader",
-                    "link": "https://remoteok.com/remote-jobs/remote-junior-crypto-trader-atom-partners-1136383"
+                    "position": "Senior Marketing Manager Paid Ads",
+                    "link": "https://remoteok.com/remote-jobs/remote-senior-marketing-manager-paid-ads-acebet-com-1129629"
                 },
                 {
-                    "position": "Executive Assistant",
-                    "link": "https://remoteok.com/remote-jobs/remote-executive-assistant-numeris-1136808"
+                    "position": "Junior Crypto Trader",
+                    "link": "https://remoteok.com/remote-jobs/remote-junior-crypto-trader-atom-partners-1136383"
                 }
             ]
         },
