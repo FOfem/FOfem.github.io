@@ -1,28 +1,28 @@
 {
-    "last_update": "August 24, 2026 | 03:38 PM",
+    "last_update": "August 24, 2026 | 06:37 PM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[15:38:13] SUCCESS: Machine Learning (3 found)",
-        "[15:38:15] SUCCESS: Front-End / React (3 found)",
-        "[15:38:18] SUCCESS: Writing / Creative (0 found)",
-        "[15:38:21] SUCCESS: Virtual Assistant (0 found)"
+        "[18:37:22] SUCCESS: Machine Learning (3 found)",
+        "[18:37:25] SUCCESS: Front-End / React (3 found)",
+        "[18:37:27] SUCCESS: Writing / Creative (0 found)",
+        "[18:37:30] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
             "query": "Machine Learning",
             "jobs": [
                 {
-                    "position": "Automation Engineer (UIPath) for innovative AI Project",
-                    "link": "https://remoteok.com/remote-jobs/remote-automation-engineer-uipath-for-innovative-ai-project-toptal-1137103"
-                },
-                {
                     "position": "GenAI Engineer AI Builder AI Agent Associate Specialist",
                     "link": "https://remoteok.com/remote-jobs/remote-genai-engineer-ai-builder-ai-agent-associate-specialist-magic-compass-limited-1135735"
                 },
                 {
-                    "position": "Store person",
-                    "link": "https://remoteok.com/remote-jobs/remote-store-person-krannich-solar-australia-1137100"
+                    "position": "Customer Support Executive",
+                    "link": "https://remoteok.com/remote-jobs/remote-customer-support-executive-careeraiforge-1137106"
+                },
+                {
+                    "position": "Bell Captain",
+                    "link": "https://remoteok.com/remote-jobs/remote-bell-captain-four-seasons-1137107"
                 }
             ]
         },
