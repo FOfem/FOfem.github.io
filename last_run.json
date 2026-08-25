@@ -1,12 +1,12 @@
 {
-    "last_update": "August 25, 2026 | 06:37 PM",
+    "last_update": "August 25, 2026 | 09:26 PM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[18:36:51] SUCCESS: Machine Learning (3 found)",
-        "[18:36:53] SUCCESS: Front-End / React (3 found)",
-        "[18:36:56] SUCCESS: Writing / Creative (0 found)",
-        "[18:36:59] SUCCESS: Virtual Assistant (0 found)"
+        "[21:26:31] SUCCESS: Machine Learning (3 found)",
+        "[21:26:34] SUCCESS: Front-End / React (3 found)",
+        "[21:26:37] SUCCESS: Writing / Creative (0 found)",
+        "[21:26:40] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -17,12 +17,12 @@
                     "link": "https://remoteok.com/remote-jobs/remote-genai-engineer-ai-builder-ai-agent-associate-specialist-magic-compass-limited-1135735"
                 },
                 {
-                    "position": "Technical Staff",
-                    "link": "https://remoteok.com/remote-jobs/remote-technical-staff-piramal-pharma-ltd-1137118"
+                    "position": "OVERNIGHT SHIFT Retail Merchandiser",
+                    "link": "https://remoteok.com/remote-jobs/remote-overnight-shift-retail-merchandiser-bass-pro-shops-1137123"
                 },
                 {
-                    "position": "Senior Backend Engineer Build AI Agents",
-                    "link": "https://remoteok.com/remote-jobs/remote-senior-backend-engineer-build-ai-agents-salesforge-1137114"
+                    "position": "Technical Staff",
+                    "link": "https://remoteok.com/remote-jobs/remote-technical-staff-piramal-pharma-ltd-1137118"
                 }
             ]
         },
