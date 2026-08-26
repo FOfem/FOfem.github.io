@@ -1,12 +1,12 @@
 {
-    "last_update": "August 26, 2026 | 09:39 AM",
+    "last_update": "August 26, 2026 | 12:48 PM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[09:38:50] SUCCESS: Machine Learning (3 found)",
-        "[09:38:53] SUCCESS: Front-End / React (3 found)",
-        "[09:38:55] SUCCESS: Writing / Creative (0 found)",
-        "[09:38:58] SUCCESS: Virtual Assistant (0 found)"
+        "[12:48:02] SUCCESS: Machine Learning (3 found)",
+        "[12:48:05] SUCCESS: Front-End / React (3 found)",
+        "[12:48:07] SUCCESS: Writing / Creative (0 found)",
+        "[12:48:10] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -17,12 +17,12 @@
                     "link": "https://remoteok.com/remote-jobs/remote-genai-engineer-ai-builder-ai-agent-associate-specialist-magic-compass-limited-1135735"
                 },
                 {
-                    "position": "BACK OF HOUSE",
-                    "link": "https://remoteok.com/remote-jobs/remote-back-of-house-buffalo-wild-wings-fralich-inc-1137129"
+                    "position": "Course Writer and Editor UX UI and AI",
+                    "link": "https://remoteok.com/remote-jobs/remote-course-writer-and-editor-ux-ui-and-ai-interaction-design-foundation-1137136"
                 },
                 {
-                    "position": "OVERNIGHT SHIFT Retail Merchandiser",
-                    "link": "https://remoteok.com/remote-jobs/remote-overnight-shift-retail-merchandiser-bass-pro-shops-1137123"
+                    "position": "BACK OF HOUSE",
+                    "link": "https://remoteok.com/remote-jobs/remote-back-of-house-buffalo-wild-wings-fralich-inc-1137129"
                 }
             ]
         },
