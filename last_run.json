@@ -1,12 +1,12 @@
 {
-    "last_update": "August 27, 2026 | 12:27 AM",
+    "last_update": "August 27, 2026 | 01:47 PM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[00:27:32] SUCCESS: Machine Learning (3 found)",
-        "[00:27:35] SUCCESS: Front-End / React (3 found)",
-        "[00:27:37] SUCCESS: Writing / Creative (0 found)",
-        "[00:27:40] SUCCESS: Virtual Assistant (0 found)"
+        "[13:46:58] SUCCESS: Machine Learning (3 found)",
+        "[13:47:01] SUCCESS: Front-End / React (3 found)",
+        "[13:47:03] SUCCESS: Writing / Creative (0 found)",
+        "[13:47:06] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -17,12 +17,12 @@
                     "link": "https://remoteok.com/remote-jobs/remote-genai-engineer-ai-builder-ai-agent-associate-specialist-magic-compass-limited-1135735"
                 },
                 {
-                    "position": "Senior Level Designer",
-                    "link": "https://remoteok.com/remote-jobs/remote-senior-level-designer-blackbird-interactive-1137156"
+                    "position": "Principal Engineer",
+                    "link": "https://remoteok.com/remote-jobs/remote-principal-engineer-the-ai-whistleblower-initiative-1137162"
                 },
                 {
-                    "position": "Oracle Fusion Cloud Lead \u2014 Logistics & Supply Chain Management",
-                    "link": "https://remoteok.com/remote-jobs/remote-oracle-fusion-cloud-lead-logistics-supply-chain-management-tessera-labs-1137155"
+                    "position": "Assistant Manager",
+                    "link": "https://remoteok.com/remote-jobs/remote-assistant-manager-storage-king-group-1137161"
                 }
             ]
         },
