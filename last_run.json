@@ -1,12 +1,12 @@
 {
-    "last_update": "August 30, 2026 | 03:40 AM",
+    "last_update": "August 30, 2026 | 11:16 AM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[03:40:47] SUCCESS: Machine Learning (3 found)",
-        "[03:40:49] SUCCESS: Front-End / React (3 found)",
-        "[03:40:52] SUCCESS: Writing / Creative (0 found)",
-        "[03:40:55] SUCCESS: Virtual Assistant (0 found)"
+        "[11:16:47] SUCCESS: Machine Learning (3 found)",
+        "[11:16:49] SUCCESS: Front-End / React (3 found)",
+        "[11:16:52] SUCCESS: Writing / Creative (0 found)",
+        "[11:16:55] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -21,8 +21,8 @@
                     "link": "https://remoteok.com/remote-jobs/remote-senior-demand-generation-manager-testgorilla-1135606"
                 },
                 {
-                    "position": "APPLY NOW Send Veritas your Resume DON'T CLOSE WEBSITE",
-                    "link": "https://remoteok.com/remote-jobs/remote-apply-now-send-veritas-your-resume-dont-close-website-elements-recruitment-australia-1137201"
+                    "position": "Customer Service Agent",
+                    "link": "https://remoteok.com/remote-jobs/remote-customer-service-agent-thrifty-car-and-van-rental-1137219"
                 }
             ]
         },
