@@ -1,12 +1,12 @@
 {
-    "last_update": "August 30, 2026 | 08:34 PM",
+    "last_update": "August 30, 2026 | 11:10 PM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[20:34:34] SUCCESS: Machine Learning (3 found)",
-        "[20:34:37] SUCCESS: Front-End / React (3 found)",
-        "[20:34:39] SUCCESS: Writing / Creative (0 found)",
-        "[20:34:42] SUCCESS: Virtual Assistant (0 found)"
+        "[23:10:45] SUCCESS: Machine Learning (3 found)",
+        "[23:10:47] SUCCESS: Front-End / React (3 found)",
+        "[23:10:50] SUCCESS: Writing / Creative (0 found)",
+        "[23:10:53] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -21,8 +21,8 @@
                     "link": "https://remoteok.com/remote-jobs/remote-senior-demand-generation-manager-testgorilla-1135606"
                 },
                 {
-                    "position": "Customer Service Agent",
-                    "link": "https://remoteok.com/remote-jobs/remote-customer-service-agent-thrifty-car-and-van-rental-1137219"
+                    "position": "AI Engineer Data APIs",
+                    "link": "https://remoteok.com/remote-jobs/remote-ai-engineer-data-apis-benzinga-1137224"
                 }
             ]
         },
