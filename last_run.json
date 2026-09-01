@@ -1,12 +1,12 @@
 {
-    "last_update": "August 31, 2026 | 08:39 PM",
+    "last_update": "September 01, 2026 | 12:24 AM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[20:39:35] SUCCESS: Machine Learning (3 found)",
-        "[20:39:38] SUCCESS: Front-End / React (3 found)",
-        "[20:39:40] SUCCESS: Writing / Creative (0 found)",
-        "[20:39:43] SUCCESS: Virtual Assistant (0 found)"
+        "[00:24:02] SUCCESS: Machine Learning (3 found)",
+        "[00:24:05] SUCCESS: Front-End / React (3 found)",
+        "[00:24:07] SUCCESS: Writing / Creative (0 found)",
+        "[00:24:10] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -21,8 +21,8 @@
                     "link": "https://remoteok.com/remote-jobs/remote-senior-demand-generation-manager-testgorilla-1135606"
                 },
                 {
-                    "position": "Construction Estimator",
-                    "link": "https://remoteok.com/remote-jobs/remote-construction-estimator-streamline-search-1137238"
+                    "position": "Assistant Store Manager Puerto Rico Premium Outlets",
+                    "link": "https://remoteok.com/remote-jobs/remote-assistant-store-manager-puerto-rico-premium-outlets-brooks-brothers-1137241"
                 }
             ]
         },
