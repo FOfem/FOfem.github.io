@@ -1,12 +1,12 @@
 {
-    "last_update": "September 01, 2026 | 01:56 PM",
+    "last_update": "September 01, 2026 | 06:09 PM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[13:55:49] SUCCESS: Machine Learning (3 found)",
-        "[13:55:52] SUCCESS: Front-End / React (3 found)",
-        "[13:55:54] SUCCESS: Writing / Creative (0 found)",
-        "[13:55:57] SUCCESS: Virtual Assistant (0 found)"
+        "[18:09:47] SUCCESS: Machine Learning (3 found)",
+        "[18:09:50] SUCCESS: Front-End / React (3 found)",
+        "[18:09:52] SUCCESS: Writing / Creative (0 found)",
+        "[18:09:55] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -21,8 +21,8 @@
                     "link": "https://remoteok.com/remote-jobs/remote-senior-demand-generation-manager-testgorilla-1135606"
                 },
                 {
-                    "position": "Expression of Interest Can\u2019t see a role that\u2019s right for you",
-                    "link": "https://remoteok.com/remote-jobs/remote-expression-of-interest-cant-see-a-role-thats-right-for-you-c2-group-1137251"
+                    "position": "Vehicle Technician MOT Tester",
+                    "link": "https://remoteok.com/remote-jobs/remote-vehicle-technician-mot-tester-halfords-1137258"
                 }
             ]
         },
