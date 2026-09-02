@@ -1,12 +1,12 @@
 {
-    "last_update": "September 02, 2026 | 07:38 AM",
+    "last_update": "September 02, 2026 | 01:17 PM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[07:38:46] SUCCESS: Machine Learning (3 found)",
-        "[07:38:49] SUCCESS: Front-End / React (3 found)",
-        "[07:38:52] SUCCESS: Writing / Creative (0 found)",
-        "[07:38:55] SUCCESS: Virtual Assistant (0 found)"
+        "[13:16:57] SUCCESS: Machine Learning (3 found)",
+        "[13:17:00] SUCCESS: Front-End / React (3 found)",
+        "[13:17:02] SUCCESS: Writing / Creative (0 found)",
+        "[13:17:05] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -21,8 +21,8 @@
                     "link": "https://remoteok.com/remote-jobs/remote-amazon-specialist-volar-fashion-1137268"
                 },
                 {
-                    "position": "Field Officer Bendigo",
-                    "link": "https://remoteok.com/remote-jobs/remote-field-officer-bendigo-department-of-justice-and-community-safety-victoria-1137267"
+                    "position": "Multi Skilled Maintenance Technician",
+                    "link": "https://remoteok.com/remote-jobs/remote-multi-skilled-maintenance-technician-sigma-1137273"
                 }
             ]
         },
