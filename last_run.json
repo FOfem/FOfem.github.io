@@ -1,12 +1,12 @@
 {
-    "last_update": "September 16, 2026 | 10:52 AM",
+    "last_update": "September 16, 2026 | 04:09 PM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[10:52:14] SUCCESS: Machine Learning (3 found)",
-        "[10:52:17] SUCCESS: Front-End / React (3 found)",
-        "[10:52:19] SUCCESS: Writing / Creative (0 found)",
-        "[10:52:22] SUCCESS: Virtual Assistant (0 found)"
+        "[16:09:18] SUCCESS: Machine Learning (3 found)",
+        "[16:09:20] SUCCESS: Front-End / React (3 found)",
+        "[16:09:23] SUCCESS: Writing / Creative (0 found)",
+        "[16:09:26] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -17,12 +17,12 @@
                     "link": "https://remoteok.com/remote-jobs/remote-customer-support-success-specialist-warehance-1137302"
                 },
                 {
-                    "position": "Principal Product Manager",
-                    "link": "https://remoteok.com/remote-jobs/remote-principal-product-manager-domaintools-1137396"
+                    "position": "AI agent engineer",
+                    "link": "https://remoteok.com/remote-jobs/remote-ai-agent-engineer-sticker-mule-1137399"
                 },
                 {
-                    "position": "Social Comms",
-                    "link": "https://remoteok.com/remote-jobs/remote-social-comms-nope-1137314"
+                    "position": "Principal Product Manager",
+                    "link": "https://remoteok.com/remote-jobs/remote-principal-product-manager-domaintools-1137396"
                 }
             ]
         },
