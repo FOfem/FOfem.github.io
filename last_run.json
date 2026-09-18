@@ -1,21 +1,47 @@
 {
-    "last_update": "September 18, 2026 | 10:36 AM",
+    "last_update": "September 18, 2026 | 03:50 PM",
     "status": "Online",
-    "total_found": 0,
+    "total_found": 6,
     "logs": [
-        "[10:35:20] SUCCESS: Machine Learning (0 found)",
-        "[10:35:55] SUCCESS: Front-End / React (0 found)",
-        "[10:36:11] SUCCESS: Writing / Creative (0 found)",
-        "[10:36:14] SUCCESS: Virtual Assistant (0 found)"
+        "[15:50:48] SUCCESS: Machine Learning (3 found)",
+        "[15:50:51] SUCCESS: Front-End / React (3 found)",
+        "[15:50:53] SUCCESS: Writing / Creative (0 found)",
+        "[15:50:57] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
             "query": "Machine Learning",
-            "jobs": []
+            "jobs": [
+                {
+                    "position": "Customer Support & Success Specialist",
+                    "link": "https://remoteok.com/remote-jobs/remote-customer-support-success-specialist-warehance-1137302"
+                },
+                {
+                    "position": "Senior Shopify Developer",
+                    "link": "https://remoteok.com/remote-jobs/remote-senior-shopify-developer-sanctuary-computer-1137405"
+                },
+                {
+                    "position": "Golang Kubernetes Engineer",
+                    "link": "https://remoteok.com/remote-jobs/remote-golang-kubernetes-engineer-arango-1137400"
+                }
+            ]
         },
         {
             "query": "Front-End / React",
-            "jobs": []
+            "jobs": [
+                {
+                    "position": "Freelance Designer",
+                    "link": "https://remoteok.com/remote-jobs/remote-freelance-designer-control-shift-video-1136213"
+                },
+                {
+                    "position": "Head of Security",
+                    "link": "https://remoteok.com/remote-jobs/remote-head-of-security-tremendous-1136210"
+                },
+                {
+                    "position": "Healthcare Virtual Assistant Athena EMR Experience",
+                    "link": "https://remoteok.com/remote-jobs/remote-healthcare-virtual-assistant-athena-emr-experience-snapscale-philippines-1135688"
+                }
+            ]
         },
         {
             "query": "Writing / Creative",
