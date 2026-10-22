@@ -1,12 +1,12 @@
 {
-    "last_update": "October 21, 2026 | 09:16 PM",
+    "last_update": "October 22, 2026 | 03:20 AM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[21:15:58] SUCCESS: Machine Learning (3 found)",
-        "[21:16:01] SUCCESS: Front-End / React (3 found)",
-        "[21:16:03] SUCCESS: Writing / Creative (0 found)",
-        "[21:16:06] SUCCESS: Virtual Assistant (0 found)"
+        "[03:19:50] SUCCESS: Machine Learning (3 found)",
+        "[03:19:52] SUCCESS: Front-End / React (3 found)",
+        "[03:19:55] SUCCESS: Writing / Creative (0 found)",
+        "[03:19:58] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -21,8 +21,8 @@
                     "link": "https://remoteok.com/remote-jobs/remote-client-advisor-toptal-1137439"
                 },
                 {
-                    "position": "Senior Backend Engineer",
-                    "link": "https://remoteok.com/remote-jobs/remote-senior-backend-engineer-duckduckgo-1137551"
+                    "position": "Accounting & Finance Manager",
+                    "link": "https://remoteok.com/remote-jobs/remote-accounting-finance-manager-political-asylum-lawyers-1137555"
                 }
             ]
         },
