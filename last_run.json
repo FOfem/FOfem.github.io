@@ -1,21 +1,17 @@
 {
-    "last_update": "October 27, 2026 | 08:39 AM",
+    "last_update": "October 27, 2026 | 03:08 PM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[08:38:56] SUCCESS: Machine Learning (3 found)",
-        "[08:38:58] SUCCESS: Front-End / React (3 found)",
-        "[08:39:01] SUCCESS: Writing / Creative (0 found)",
-        "[08:39:04] SUCCESS: Virtual Assistant (0 found)"
+        "[15:07:51] SUCCESS: Machine Learning (3 found)",
+        "[15:07:54] SUCCESS: Front-End / React (3 found)",
+        "[15:07:56] SUCCESS: Writing / Creative (0 found)",
+        "[15:08:00] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
             "query": "Machine Learning",
             "jobs": [
-                {
-                    "position": "Senior Demand Generation Manager",
-                    "link": "https://remoteok.com/remote-jobs/remote-senior-demand-generation-manager-testgorilla-1135606"
-                },
                 {
                     "position": "Enterprise Sales Development Representative",
                     "link": "https://remoteok.com/remote-jobs/remote-enterprise-sales-development-representative-toptal-1137451"
@@ -23,6 +19,10 @@
                 {
                     "position": "Client Advisor",
                     "link": "https://remoteok.com/remote-jobs/remote-client-advisor-toptal-1137439"
+                },
+                {
+                    "position": "Senior DevOps Engineer",
+                    "link": "https://remoteok.com/remote-jobs/remote-senior-devops-engineer-lemon-io-1137557"
                 }
             ]
         },
