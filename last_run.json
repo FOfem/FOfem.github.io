@@ -1,12 +1,12 @@
 {
-    "last_update": "October 30, 2026 | 12:37 AM",
+    "last_update": "October 30, 2026 | 09:36 AM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[00:37:03] SUCCESS: Machine Learning (3 found)",
-        "[00:37:05] SUCCESS: Front-End / React (3 found)",
-        "[00:37:08] SUCCESS: Writing / Creative (0 found)",
-        "[00:37:11] SUCCESS: Virtual Assistant (0 found)"
+        "[09:36:44] SUCCESS: Machine Learning (3 found)",
+        "[09:36:46] SUCCESS: Front-End / React (3 found)",
+        "[09:36:48] SUCCESS: Writing / Creative (0 found)",
+        "[09:36:51] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -17,12 +17,12 @@
                     "link": "https://remoteok.com/remote-jobs/remote-enterprise-sales-development-representative-toptal-1137451"
                 },
                 {
-                    "position": "Competent Wind Turbine Technicians EU UK APAC 2027",
-                    "link": "https://remoteok.com/remote-jobs/remote-competent-wind-turbine-technicians-eu-uk-apac-2027-gev-wind-power-1137603"
+                    "position": "Online Client Support & Travel Booking We Will Train You",
+                    "link": "https://remoteok.com/remote-jobs/remote-online-client-support-amp-travel-booking-we-will-train-you-destination-careers-1137604"
                 },
                 {
-                    "position": "Country Manager Canada",
-                    "link": "https://remoteok.com/remote-jobs/remote-country-manager-canada-polaroid-1137602"
+                    "position": "Competent Wind Turbine Technicians EU UK APAC 2027",
+                    "link": "https://remoteok.com/remote-jobs/remote-competent-wind-turbine-technicians-eu-uk-apac-2027-gev-wind-power-1137603"
                 }
             ]
         },
