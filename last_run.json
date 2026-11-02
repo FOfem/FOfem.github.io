@@ -1,12 +1,12 @@
 {
-    "last_update": "November 02, 2026 | 10:32 AM",
+    "last_update": "November 02, 2026 | 09:24 PM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[10:32:24] SUCCESS: Machine Learning (3 found)",
-        "[10:32:27] SUCCESS: Front-End / React (3 found)",
-        "[10:32:29] SUCCESS: Writing / Creative (0 found)",
-        "[10:32:32] SUCCESS: Virtual Assistant (0 found)"
+        "[21:24:38] SUCCESS: Machine Learning (3 found)",
+        "[21:24:41] SUCCESS: Front-End / React (3 found)",
+        "[21:24:43] SUCCESS: Writing / Creative (0 found)",
+        "[21:24:46] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -17,12 +17,12 @@
                     "link": "https://remoteok.com/remote-jobs/remote-enterprise-sales-development-representative-toptal-1137451"
                 },
                 {
-                    "position": "Software Engineer Infrastructure",
-                    "link": "https://remoteok.com/remote-jobs/remote-software-engineer-infrastructure-sodalis-inc-1137614"
+                    "position": "Site Activation Manager 6 Month Contract Immediate start",
+                    "link": "https://remoteok.com/remote-jobs/remote-site-activation-manager-6-month-contract-immediate-start-umed-1137620"
                 },
                 {
-                    "position": "Team Lead Account Executive",
-                    "link": "https://remoteok.com/remote-jobs/remote-team-lead-account-executive-capmo-1137613"
+                    "position": "AI ML Engineer",
+                    "link": "https://remoteok.com/remote-jobs/remote-ai-ml-engineer-docusketch-1137619"
                 }
             ]
         },
