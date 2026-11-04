@@ -1,12 +1,12 @@
 {
-    "last_update": "November 04, 2026 | 10:29 AM",
+    "last_update": "November 04, 2026 | 07:28 PM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[10:29:15] SUCCESS: Machine Learning (3 found)",
-        "[10:29:17] SUCCESS: Front-End / React (3 found)",
-        "[10:29:20] SUCCESS: Writing / Creative (0 found)",
-        "[10:29:24] SUCCESS: Virtual Assistant (0 found)"
+        "[19:28:02] SUCCESS: Machine Learning (3 found)",
+        "[19:28:05] SUCCESS: Front-End / React (3 found)",
+        "[19:28:08] SUCCESS: Writing / Creative (0 found)",
+        "[19:28:11] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -17,12 +17,12 @@
                     "link": "https://remoteok.com/remote-jobs/remote-enterprise-sales-development-representative-toptal-1137451"
                 },
                 {
-                    "position": "Entry Level Scheduling & Coordinating Reservations Online",
-                    "link": "https://remoteok.com/remote-jobs/remote-entry-level-scheduling-amp-coordinating-reservations-online-destination-careers-1137680"
+                    "position": "Software Engineer",
+                    "link": "https://remoteok.com/remote-jobs/remote-software-engineer-claims-1137685"
                 },
                 {
-                    "position": "AI Training - $20/hr - United States",
-                    "link": "https://remoteok.com/remote-jobs/remote-ai-training-20-hr-united-states-remote-talent-cloud-1137678"
+                    "position": "Entry Level Scheduling &amp; Coordinating Reservations Online",
+                    "link": "https://remoteok.com/remote-jobs/remote-entry-level-scheduling-amp-coordinating-reservations-online-destination-careers-1137680"
                 }
             ]
         },
