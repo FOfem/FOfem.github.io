@@ -1,12 +1,12 @@
 {
-    "last_update": "November 08, 2026 | 12:47 PM",
+    "last_update": "November 08, 2026 | 07:20 PM",
     "status": "Online",
     "total_found": 6,
     "logs": [
-        "[12:46:58] SUCCESS: Machine Learning (3 found)",
-        "[12:47:01] SUCCESS: Front-End / React (3 found)",
-        "[12:47:03] SUCCESS: Writing / Creative (0 found)",
-        "[12:47:06] SUCCESS: Virtual Assistant (0 found)"
+        "[19:20:00] SUCCESS: Machine Learning (3 found)",
+        "[19:20:03] SUCCESS: Front-End / React (3 found)",
+        "[19:20:06] SUCCESS: Writing / Creative (0 found)",
+        "[19:20:09] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -30,16 +30,16 @@
             "query": "Front-End / React",
             "jobs": [
                 {
+                    "position": "UI Developer",
+                    "link": "https://remoteok.com/remote-jobs/remote-ui-developer-rainfocus-1137704"
+                },
+                {
                     "position": "Senior Software Engineer LATAM",
                     "link": "https://remoteok.com/remote-jobs/remote-senior-software-engineer-latam-wagmo-1137572"
                 },
                 {
                     "position": "Senior React Full stack Developer",
                     "link": "https://remoteok.com/remote-jobs/remote-senior-react-full-stack-developer-lemon-io-1137475"
-                },
-                {
-                    "position": "Product Engineering Lead",
-                    "link": "https://remoteok.com/remote-jobs/remote-product-engineering-lead-tether-operations-limited-1137478"
                 }
             ]
         },
