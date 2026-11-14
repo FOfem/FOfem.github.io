@@ -1,12 +1,12 @@
 {
-    "last_update": "November 14, 2026 | 12:58 PM",
+    "last_update": "November 14, 2026 | 07:42 PM",
     "status": "Online",
     "total_found": 9,
     "logs": [
-        "[12:58:28] SUCCESS: Machine Learning (3 found)",
-        "[12:58:31] SUCCESS: Front-End / React (3 found)",
-        "[12:58:33] SUCCESS: Writing / Creative (3 found)",
-        "[12:58:37] SUCCESS: Virtual Assistant (0 found)"
+        "[19:42:05] SUCCESS: Machine Learning (3 found)",
+        "[19:42:07] SUCCESS: Front-End / React (3 found)",
+        "[19:42:10] SUCCESS: Writing / Creative (3 found)",
+        "[19:42:13] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -47,16 +47,16 @@
             "query": "Writing / Creative",
             "jobs": [
                 {
+                    "position": "Bilingual Seasonal TurboTax Community Tax Expert \u2013 Online Writing Role",
+                    "link": "https://jobspresso.co/job/bilingual-seasonal-turbotax-community-tax-expert-online-writing-role/"
+                },
+                {
                     "position": "Staff Content Developer",
                     "link": "https://jobspresso.co/job/staff-content-developer/"
                 },
                 {
                     "position": "Content Proofreader, Takeoff",
                     "link": "https://jobspresso.co/job/content-proofreader-takeoff-2/"
-                },
-                {
-                    "position": "Content Innovation Manager",
-                    "link": "https://jobspresso.co/job/content-innovation-manager/"
                 }
             ]
         },
