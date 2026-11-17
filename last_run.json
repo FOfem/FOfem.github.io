@@ -1,12 +1,12 @@
 {
-    "last_update": "November 16, 2026 | 09:39 PM",
+    "last_update": "November 17, 2026 | 06:34 AM",
     "status": "Online",
     "total_found": 9,
     "logs": [
-        "[21:39:44] SUCCESS: Machine Learning (3 found)",
-        "[21:39:46] SUCCESS: Front-End / React (3 found)",
-        "[21:39:49] SUCCESS: Writing / Creative (3 found)",
-        "[21:39:52] SUCCESS: Virtual Assistant (0 found)"
+        "[06:34:48] SUCCESS: Machine Learning (3 found)",
+        "[06:34:51] SUCCESS: Front-End / React (3 found)",
+        "[06:34:53] SUCCESS: Writing / Creative (3 found)",
+        "[06:34:56] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -21,8 +21,8 @@
                     "link": "https://remoteok.com/remote-jobs/remote-enterprise-sales-development-representative-toptal-1137451"
                 },
                 {
-                    "position": "Head of Technology",
-                    "link": "https://remoteok.com/remote-jobs/remote-head-of-technology-sanctuary-computer-1137537"
+                    "position": "Expert Talent Pool Physical AI",
+                    "link": "https://remoteok.com/remote-jobs/remote-expert-talent-pool-physical-ai-clera-1137799"
                 }
             ]
         },
@@ -47,16 +47,16 @@
             "query": "Writing / Creative",
             "jobs": [
                 {
-                    "position": "Content Writer",
-                    "link": "https://jobspresso.co/job/content-writer-3/"
+                    "position": "Content Marketing Specialist",
+                    "link": "https://jobspresso.co/job/content-marketing-specialist/"
                 },
                 {
-                    "position": "Sr. Technical Editor",
-                    "link": "https://jobspresso.co/job/sr-technical-editor/"
+                    "position": "Creative Video Producer",
+                    "link": "https://jobspresso.co/job/creative-video-producer/"
                 },
                 {
-                    "position": "Sector Project Lead \u2013 Healthcare, Directed Content",
-                    "link": "https://jobspresso.co/job/sector-project-lead-healthcare-directed-content/"
+                    "position": "Senior Technical Writer",
+                    "link": "https://jobspresso.co/job/senior-technical-writer-4/"
                 }
             ]
         },
