@@ -1,12 +1,12 @@
 {
-    "last_update": "November 18, 2026 | 11:08 AM",
+    "last_update": "November 18, 2026 | 07:59 PM",
     "status": "Online",
     "total_found": 9,
     "logs": [
-        "[11:08:29] SUCCESS: Machine Learning (3 found)",
-        "[11:08:32] SUCCESS: Front-End / React (3 found)",
-        "[11:08:34] SUCCESS: Writing / Creative (3 found)",
-        "[11:08:38] SUCCESS: Virtual Assistant (0 found)"
+        "[19:58:57] SUCCESS: Machine Learning (3 found)",
+        "[19:59:00] SUCCESS: Front-End / React (3 found)",
+        "[19:59:03] SUCCESS: Writing / Creative (3 found)",
+        "[19:59:06] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -30,16 +30,16 @@
             "query": "Front-End / React",
             "jobs": [
                 {
+                    "position": "SEO Full Stack Engineer",
+                    "link": "https://remoteok.com/remote-jobs/remote-seo-full-stack-engineer-treatwell-1137805"
+                },
+                {
                     "position": "Senior Agentic AI Engineer NDA",
                     "link": "https://remoteok.com/remote-jobs/remote-senior-agentic-ai-engineer-nda-gt-1137710"
                 },
                 {
                     "position": "UI Developer",
                     "link": "https://remoteok.com/remote-jobs/remote-ui-developer-rainfocus-1137704"
-                },
-                {
-                    "position": "Senior Software Engineer LATAM",
-                    "link": "https://remoteok.com/remote-jobs/remote-senior-software-engineer-latam-wagmo-1137572"
                 }
             ]
         },
@@ -47,16 +47,16 @@
             "query": "Writing / Creative",
             "jobs": [
                 {
+                    "position": "Science Media Producer",
+                    "link": "https://jobspresso.co/job/science-media-producer/"
+                },
+                {
                     "position": "Briefing Content Strategist",
                     "link": "https://jobspresso.co/job/briefing-content-strategist/"
                 },
                 {
                     "position": "Content & Communications Manager",
                     "link": "https://jobspresso.co/job/content-and-communications-manager/"
-                },
-                {
-                    "position": "Developer Advocate \u2013 Service Management",
-                    "link": "https://jobspresso.co/job/developer-advocate-service-management/"
                 }
             ]
         },
