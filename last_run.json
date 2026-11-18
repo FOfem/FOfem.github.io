@@ -1,12 +1,12 @@
 {
-    "last_update": "November 18, 2026 | 02:44 AM",
+    "last_update": "November 18, 2026 | 11:08 AM",
     "status": "Online",
     "total_found": 9,
     "logs": [
-        "[02:44:09] SUCCESS: Machine Learning (3 found)",
-        "[02:44:11] SUCCESS: Front-End / React (3 found)",
-        "[02:44:14] SUCCESS: Writing / Creative (3 found)",
-        "[02:44:17] SUCCESS: Virtual Assistant (0 found)"
+        "[11:08:29] SUCCESS: Machine Learning (3 found)",
+        "[11:08:32] SUCCESS: Front-End / React (3 found)",
+        "[11:08:34] SUCCESS: Writing / Creative (3 found)",
+        "[11:08:38] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -47,16 +47,16 @@
             "query": "Writing / Creative",
             "jobs": [
                 {
+                    "position": "Briefing Content Strategist",
+                    "link": "https://jobspresso.co/job/briefing-content-strategist/"
+                },
+                {
                     "position": "Content & Communications Manager",
                     "link": "https://jobspresso.co/job/content-and-communications-manager/"
                 },
                 {
                     "position": "Developer Advocate \u2013 Service Management",
                     "link": "https://jobspresso.co/job/developer-advocate-service-management/"
-                },
-                {
-                    "position": "Senior Manager, Learning, Content, and Quality",
-                    "link": "https://jobspresso.co/job/senior-manager-learning-content-and-quality/"
                 }
             ]
         },
