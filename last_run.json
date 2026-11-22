@@ -1,12 +1,12 @@
 {
-    "last_update": "November 22, 2026 | 10:43 AM",
+    "last_update": "November 22, 2026 | 07:02 PM",
     "status": "Online",
     "total_found": 9,
     "logs": [
-        "[10:43:11] SUCCESS: Machine Learning (3 found)",
-        "[10:43:13] SUCCESS: Front-End / React (3 found)",
-        "[10:43:16] SUCCESS: Writing / Creative (3 found)",
-        "[10:43:19] SUCCESS: Virtual Assistant (0 found)"
+        "[19:02:05] SUCCESS: Machine Learning (3 found)",
+        "[19:02:08] SUCCESS: Front-End / React (3 found)",
+        "[19:02:10] SUCCESS: Writing / Creative (3 found)",
+        "[19:02:13] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -47,16 +47,16 @@
             "query": "Writing / Creative",
             "jobs": [
                 {
+                    "position": "Creative Director Copy, Social",
+                    "link": "https://jobspresso.co/job/creative-director-copy-social/"
+                },
+                {
                     "position": "Editor, International",
                     "link": "https://jobspresso.co/job/editor-international/"
                 },
                 {
                     "position": "Staff Technical Writer",
                     "link": "https://jobspresso.co/job/staff-technical-writer/"
-                },
-                {
-                    "position": "Content Manager",
-                    "link": "https://jobspresso.co/job/content-manager/"
                 }
             ]
         },
