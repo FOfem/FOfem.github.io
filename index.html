@@ -56,7 +56,7 @@
 
         <p style="text-align:center;font-weight:bolder;color: var(--other-color);">Hi! I'm</p>
 
-        <h1 style="text-shadow: 2px 2px 5px blueviolet; font-weight:bold; color:blanchedalmond; /*color:oklch(60% 0.2 50)*/">Fredrick</h1>
+        <h1>Fredrick</h1>
 
         <div class="hero-avatar">
             <div class="avatar-frame">
@@ -67,11 +67,9 @@
         <div id="loginform">
           
             <div class="" style="position:relative; margin:5px; padding:8px;padding-left:30px; padding-top:10px; padding-bottom:10px;">
-                     
-                <h2 style="text-align: center; color: var(--other-color);">
-                AI Technical Practitioner | Machine Learning Engineer | Full-Stack Developer | Electrical & Electronics Engineer
-                </h2>
-
+                <div class="typing-wrapper avatar-frame">
+                    <span id="typed-text"></span><span class="cursor">|</span>
+                </div>
                 <hr style=" margin-top: -10px; border:double #944dff;max-width: 1125px;">
             </div>
         </div>
@@ -365,6 +363,7 @@
 
   <!-------------------~~~~~~ WORKING EXPERIENCE ~~~~~~--------------------->
     <section id="experience" style="background-color: var(--background-dark);">
+
         <h2 style="margin-top:40px;">Professional Experience</h2>
         <h3 style="text-align:center;margin-bottom:10px;">Diverse Technical and Creative Milestones</h3>
 
@@ -372,7 +371,10 @@
 
             <div class="timeline-item right">
                 <div class="timeline-content">
-                    <h4>Founder / Lead Architect</h4>
+                    
+
+                    <h4 class="chip"><span class="dot"></span>Founder / Lead Architect</h4> 
+
                     <span class="date">ForraCorp (Private Corporations) | Owerri, Imo State</span>
                     <p class="datemark">2003 – Present (Technical Research and Services)</p>
                     <ul>
@@ -582,9 +584,9 @@
                     <p class="datemark" style="border-left: 3px solid var(--primary-color); padding: 5px;"><strong>Name:</strong><br>Fredrick O. Ubi</p>
 
                     <p class="datemark" style="border-left: 3px solid var(--primary-color); padding: 5px;"><strong>Country:</strong><br>Nigeria</p>
-<!---       
-                    <p class="datemark" style="border-left: 3px solid var(--primary-color); padding: 5px;"><strong>WhatsApp:</strong><a href="https://wa.me/2348066123142" style="color:var(--text-light); text-decoration: none;"><br>+234 </a></p>
---->
+                    
+                    <p class="datemark" style="border-left: 3px solid var(--primary-color); padding: 5px;"><strong>WhatsApp:</strong><a href="https://wa.me/2348066123142" style="color:var(--text-light); text-decoration: none;"><br>+234 806 612 3142</a></p>
+
                     <p class="datemark" style="border-left: 3px solid var(--primary-color); padding: 5px;"><strong>Email:</strong> <a href="mailto:ForraCorp1@gmail.com" style="color:var(--text-light); text-decoration: none;"><br>ForraCorp1@gmail.com</a></p>
 
                     <p class="datemark" style="border-left: 3px solid var(--primary-color); padding: 5px;"><strong>Name of Personal Company:</strong><br>ForraCorp.</p>
@@ -627,7 +629,7 @@
             
              <hr/>
 
-        <p><a href="https://linkedin.com/in/fredrick-ubi"><i class="fab fa-linkedin"></i></a> | <a href="mailto:ForraCorp1@gmail.com"><i class="fas fa-envelope text-2xl text-deep-green"></i></a> | <a href="https://github.com" aria-label="GitHub"><i class="fab fa-github"></i></a> | <i class="fas fa-phone-alt"></i> <!--- +234 --> </p><br>
+        <p><a href="https://linkedin.com/in/fredrick-ubi"><i class="fab fa-linkedin"></i></a> | <a href="mailto:ForraCorp1@gmail.com"><i class="fas fa-envelope text-2xl text-deep-green"></i></a> | <a href="https://github.com" aria-label="GitHub"><i class="fab fa-github"></i></a> | <i class="fas fa-phone-alt"></i> <!--- +234 702 597 4815 --> </p><br>
     </footer>
 <!-----------------~~~~~~  ~~~~~~----------------->  
 
@@ -800,6 +802,58 @@
 
     </script>
 
+     <script>
+        // The Auto Role Typing and Retyping Engine
+        const roles = [
+          'AI Technical Practitioner',
+          'Machine Learning Engineer',
+          'Full-Stack Web Developer',
+          'Information Communication Technologist (ICT)',
+          'Electrical & Electronics Engineer'
+        ];
+
+        const typedTextElement = document.getElementById('typed-text');
+
+        const typingSpeed = 65;      // Speed in ms when typing forward
+        const deletingSpeed = 35;    // Speed in ms when backspacing
+        const pauseAfterType = 1800; // Pause in ms when a phrase finishes typing
+        const pauseAfterDelete = 400; // Pause in ms before typing the next phrase
+
+        let roleIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        function typeEffect() {
+          const currentRole = roles[roleIndex];
+
+          if (isDeleting) {
+            typedTextElement.textContent = currentRole.substring(0, charIndex - 1);
+            charIndex--;
+          } else {
+            typedTextElement.textContent = currentRole.substring(0, charIndex + 1);
+            charIndex++;
+          }
+
+          let delay = isDeleting ? deletingSpeed : typingSpeed;
+
+          if (!isDeleting && charIndex === currentRole.length) {
+            delay = pauseAfterType;
+            isDeleting = true;
+          } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            roleIndex = (roleIndex + 1) % roles.length;
+            delay = pauseAfterDelete;
+          }
+
+          setTimeout(typeEffect, delay);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+          setTimeout(typeEffect, pauseAfterDelete);
+        });
+
+    </script>
+
     <script>
         // Get the elements
         const hamburger = document.getElementById('hamburger-menu');
@@ -886,6 +940,8 @@
 
         window.onload = runTensorFlowDemo;
     </script>
+
+   
 
 </body>
 </html>
