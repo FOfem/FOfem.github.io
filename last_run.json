@@ -1,12 +1,12 @@
 {
-    "last_update": "November 23, 2026 | 11:24 PM",
+    "last_update": "November 24, 2026 | 08:26 AM",
     "status": "Online",
     "total_found": 9,
     "logs": [
-        "[23:24:04] SUCCESS: Machine Learning (3 found)",
-        "[23:24:07] SUCCESS: Front-End / React (3 found)",
-        "[23:24:09] SUCCESS: Writing / Creative (3 found)",
-        "[23:24:12] SUCCESS: Virtual Assistant (0 found)"
+        "[08:26:08] SUCCESS: Machine Learning (3 found)",
+        "[08:26:11] SUCCESS: Front-End / React (3 found)",
+        "[08:26:13] SUCCESS: Writing / Creative (3 found)",
+        "[08:26:16] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -21,8 +21,8 @@
                     "link": "https://remoteok.com/remote-jobs/remote-ai-content-reviewer-video-annotation-imerit-1137686"
                 },
                 {
-                    "position": "Strategic Technical Advisor",
-                    "link": "https://remoteok.com/remote-jobs/remote-strategic-technical-advisor-thrive-1138074"
+                    "position": "Revenue Operations Analyst",
+                    "link": "https://remoteok.com/remote-jobs/remote-revenue-operations-analyst-augment-1138081"
                 }
             ]
         },
@@ -47,16 +47,16 @@
             "query": "Writing / Creative",
             "jobs": [
                 {
+                    "position": "Director, Brand & Editorial",
+                    "link": "https://jobspresso.co/job/director-brand-and-editorial-juniper-square/"
+                },
+                {
+                    "position": "Senior Copywriter (Sports Emphasis)",
+                    "link": "https://jobspresso.co/job/senior-copywriter-sports-emphasis/"
+                },
+                {
                     "position": "Creative Director Copy, Social",
                     "link": "https://jobspresso.co/job/creative-director-copy-social/"
-                },
-                {
-                    "position": "Staff Technical Writer",
-                    "link": "https://jobspresso.co/job/staff-technical-writer/"
-                },
-                {
-                    "position": "Content Manager",
-                    "link": "https://jobspresso.co/job/content-manager/"
                 }
             ]
         },
