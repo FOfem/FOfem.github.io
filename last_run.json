@@ -1,12 +1,12 @@
 {
-    "last_update": "November 27, 2026 | 04:09 PM",
+    "last_update": "November 28, 2026 | 01:06 AM",
     "status": "Online",
     "total_found": 9,
     "logs": [
-        "[16:09:39] SUCCESS: Machine Learning (3 found)",
-        "[16:09:42] SUCCESS: Front-End / React (3 found)",
-        "[16:09:44] SUCCESS: Writing / Creative (3 found)",
-        "[16:09:48] SUCCESS: Virtual Assistant (0 found)"
+        "[01:06:05] SUCCESS: Machine Learning (3 found)",
+        "[01:06:07] SUCCESS: Front-End / React (3 found)",
+        "[01:06:10] SUCCESS: Writing / Creative (3 found)",
+        "[01:06:34] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -34,12 +34,12 @@
                     "link": "https://remoteok.com/remote-jobs/remote-senior-software-developer-loopio-inc-1138202"
                 },
                 {
-                    "position": "Senior Product Engineer",
-                    "link": "https://remoteok.com/remote-jobs/remote-senior-product-engineer-arbor-education-1137865"
-                },
-                {
                     "position": "Senior Agentic AI Engineer NDA",
                     "link": "https://remoteok.com/remote-jobs/remote-senior-agentic-ai-engineer-nda-gt-1137710"
+                },
+                {
+                    "position": "UI Developer",
+                    "link": "https://remoteok.com/remote-jobs/remote-ui-developer-rainfocus-1137704"
                 }
             ]
         },
@@ -51,12 +51,12 @@
                     "link": "https://jobspresso.co/job/developer-relations-linear/"
                 },
                 {
-                    "position": "Content Lead, Customer Advocacy",
-                    "link": "https://jobspresso.co/job/content-lead-customer-advocacy-ashby/"
+                    "position": "Content Lead, Creator Ecosystem Experience",
+                    "link": "https://jobspresso.co/job/content-lead-creator-ecosystem-experience-coursera/"
                 },
                 {
-                    "position": "Developer Engagement Team",
-                    "link": "https://jobspresso.co/job/developer-engagement-team-roblox/"
+                    "position": "Content Lead, Customer Advocacy",
+                    "link": "https://jobspresso.co/job/content-lead-customer-advocacy-ashby/"
                 }
             ]
         },
