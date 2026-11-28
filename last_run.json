@@ -1,12 +1,12 @@
 {
-    "last_update": "November 28, 2026 | 01:06 AM",
+    "last_update": "November 28, 2026 | 11:22 AM",
     "status": "Online",
     "total_found": 9,
     "logs": [
-        "[01:06:05] SUCCESS: Machine Learning (3 found)",
-        "[01:06:07] SUCCESS: Front-End / React (3 found)",
-        "[01:06:10] SUCCESS: Writing / Creative (3 found)",
-        "[01:06:34] SUCCESS: Virtual Assistant (0 found)"
+        "[11:22:00] SUCCESS: Machine Learning (3 found)",
+        "[11:22:03] SUCCESS: Front-End / React (3 found)",
+        "[11:22:05] SUCCESS: Writing / Creative (3 found)",
+        "[11:22:09] SUCCESS: Virtual Assistant (0 found)"
     ],
     "findings": [
         {
@@ -47,12 +47,12 @@
             "query": "Writing / Creative",
             "jobs": [
                 {
-                    "position": "Developer Relations",
-                    "link": "https://jobspresso.co/job/developer-relations-linear/"
+                    "position": "Associate Editor, Breaking News",
+                    "link": "https://jobspresso.co/job/associate-editor-breaking-news-axios/"
                 },
                 {
-                    "position": "Content Lead, Creator Ecosystem Experience",
-                    "link": "https://jobspresso.co/job/content-lead-creator-ecosystem-experience-coursera/"
+                    "position": "Developer Relations",
+                    "link": "https://jobspresso.co/job/developer-relations-linear/"
                 },
                 {
                     "position": "Content Lead, Customer Advocacy",
